@@ -3417,19 +3417,6 @@
         }
       ]
     },
-    "Prada": {
-      "Shirts": [
-        {
-          "id": 1352050964,
-          "type": "Shirt",
-          "name": "Prada Re-Nylon Jacket",
-          "rarity": "Legendary",
-          "fairPrice": 72000,
-          "spawnChance": 8,
-          "economyProfile": "risky"
-        }
-      ]
-    },
     "Goyard": {
       "Shirts": [
         {
