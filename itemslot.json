@@ -1,0 +1,3588 @@
+{
+  "RARITIES": {
+    "Common": {
+      "displayName": "Common",
+      "color": "Color3.fromRGB(180, 180, 180)"
+    },
+    "Uncommon": {
+      "displayName": "Uncommon",
+      "color": "Color3.fromRGB(80, 200, 80)"
+    },
+    "Rare": {
+      "displayName": "Rare",
+      "color": "Color3.fromRGB(80, 150, 255)"
+    },
+    "Epic": {
+      "displayName": "Epic",
+      "color": "Color3.fromRGB(180, 80, 255)"
+    },
+    "Legendary": {
+      "displayName": "Legendary",
+      "color": "Color3.fromRGB(255, 180, 0)"
+    }
+  },
+  "SHOP_ITEMS": {
+    "Street": {
+      "Shirts": [
+        {
+          "id": 18662896554,
+          "type": "Shirt",
+          "name": "Яндекс Доставка Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 0,
+          "spawnChance": 0
+        },
+        {
+          "id": 7798271962,
+          "type": "Shirt",
+          "name": "пиджак чигура",
+          "rarity": "Legendary",
+          "fairPrice": 100000,
+          "spawnChance": 0
+        },
+        {
+          "id": 7798302568,
+          "type": "Pants",
+          "name": "штаны чигура",
+          "rarity": "Legendary",
+          "fairPrice": 100000,
+          "spawnChance": 0
+        }
+      ]
+    },
+    "CavEmpt": {
+      "Shirts": [
+        {
+          "id": 2887711508,
+          "type": "Shirt",
+          "name": "Cav Empt Футболка Spring Delivery",
+          "rarity": "Legendary",
+          "fairPrice": 14000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 3244925420,
+          "type": "Shirt",
+          "name": "Cav Empt Свитшот Желтый Symptom Heavy",
+          "rarity": "Legendary",
+          "fairPrice": 18500,
+          "spawnChance": 0.6,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 297942902,
+          "type": "Shirt",
+          "name": "Cav Empt Бомбер",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 0.04,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 914784451,
+          "type": "Shirt",
+          "name": "Cav Empt Свитшот FW 17",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 322189905,
+          "type": "Shirt",
+          "name": "Cav Empt Not Impossible Crewneck",
+          "rarity": "Legendary",
+          "fairPrice": 12000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1002344601,
+          "type": "Shirt",
+          "name": "Cav Empt Свитшот MD Document Crewneck",
+          "rarity": "Legendary",
+          "fairPrice": 16000,
+          "spawnChance": 0.1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 18280893501,
+          "type": "Shirt",
+          "name": "Cav Empt Свитшот Joker",
+          "rarity": "Legendary",
+          "fairPrice": 22000,
+          "spawnChance": 0.07,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Haliky": {
+      "Shirts": [
+        {
+          "id": 6004029863,
+          "type": "Shirt",
+          "name": "Haliky Худи",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.001,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 6676412078,
+          "type": "Shirt",
+          "name": "Haliky Gang Bears",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.003,
+          "economyProfile": "jackpot"
+        }
+      ]
+    },
+    "Nike": {
+      "Shirts": [
+        {
+          "id": 8801995608,
+          "type": "Shirt",
+          "name": "Nike Tech Dark Light Blue",
+          "rarity": "Legendary",
+          "fairPrice": 9500,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 15501893721,
+          "type": "Shirt",
+          "name": "Nike Tech Dark Blue",
+          "rarity": "Legendary",
+          "fairPrice": 9500,
+          "spawnChance": 0.4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 7397565254,
+          "type": "Shirt",
+          "name": "Nike Tech Windrunner Black",
+          "rarity": "Legendary",
+          "fairPrice": 22000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 82427332093486,
+          "type": "Shirt",
+          "name": "redvetements",
+          "rarity": "Legendary",
+          "fairPrice": 777,
+          "spawnChance": 0
+        }
+      ]
+    },
+    "GalleryDept": {
+      "Shirts": [
+        {
+          "id": 131469345785671,
+          "type": "Shirt",
+          "name": "Gallery Dept Lanvin",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 78229573413073,
+          "type": "Shirt",
+          "name": "Gallery Dept Свитшот Синий",
+          "rarity": "Legendary",
+          "fairPrice": 14500,
+          "spawnChance": 0.8,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 124744117453032,
+          "type": "Shirt",
+          "name": "Gallery Dept Свитшот Коричневый",
+          "rarity": "Legendary",
+          "fairPrice": 11000,
+          "spawnChance": 0.4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 106768419883339,
+          "type": "Shirt",
+          "name": "Gallery Dept Красный Зип-Худи",
+          "rarity": "Legendary",
+          "fairPrice": 7500,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 115370689540260,
+          "type": "Shirt",
+          "name": "Gallery Dept Худи Зеленое",
+          "rarity": "Legendary",
+          "fairPrice": 18000,
+          "spawnChance": 0.3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 109387384568369,
+          "type": "Shirt",
+          "name": "Gallery Dept Футболка Шамана",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 0.08,
+          "economyProfile": "jackpot"
+        }
+      ]
+    },
+    "Bape": {
+      "Shirts": [
+        {
+          "id": 4843433312,
+          "type": "Shirt",
+          "name": "BAPE Yellow Camo Shark",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 3052304804,
+          "type": "Shirt",
+          "name": "BAPE Tiger Camo",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.06,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 119505659829019,
+          "type": "Shirt",
+          "name": "BAPE Red Panda",
+          "rarity": "Legendary",
+          "fairPrice": 18000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1329266661,
+          "type": "Shirt",
+          "name": "BAPE Full Zip Shark",
+          "rarity": "Legendary",
+          "fairPrice": 135000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 136214158712256,
+          "type": "Pants",
+          "name": "BAPE Tiger Штаны Синие",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 91431686212610,
+          "type": "Pants",
+          "name": "BAPE Tiger Штаны Красные",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 105050054678663,
+          "type": "Pants",
+          "name": "BAPE Tiger Штаны Темно-Зелен",
+          "rarity": "Legendary",
+          "fairPrice": 26000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 126486170842278,
+          "type": "Pants",
+          "name": "BAPE Tiger Штаны Фиолетовые",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 0.08,
+          "economyProfile": "trap"
+        }
+      ]
+    },
+    "Gutta": {
+      "Shirts": [
+        {
+          "id": 116825151038506,
+          "type": "Shirt",
+          "name": "Gutta Raiders Camo shirt",
+          "rarity": "Legendary",
+          "fairPrice": 18000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 116197719499900,
+          "type": "Shirt",
+          "name": "Gutta Opiy Shirt",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 123206690688862,
+          "type": "Shirt",
+          "name": "Gutta Snake Year",
+          "rarity": "Legendary",
+          "fairPrice": 15000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        }
+      ]
+    },
+    "NeNet": {
+      "Shirts": [
+        {
+          "id": 9930373233,
+          "type": "Shirt",
+          "name": "NeNet Футболка Фиолетовая",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 80169471492515,
+          "type": "Shirt",
+          "name": "NeNet Футболка Серая",
+          "rarity": "Legendary",
+          "fairPrice": 22000,
+          "spawnChance": 0.6,
+          "economyProfile": "normal"
+        }
+      ]
+    },
+    "HBA": {
+      "Shirts": [
+        {
+          "id": 110327323437539,
+          "type": "Shirt",
+          "name": "HBA Creepy Свитшот",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 100120983911427,
+          "type": "Shirt",
+          "name": "HBA Рубашка",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 0.2,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Supreme": {
+      "Shirts": [
+        {
+          "id": 1103783722,
+          "type": "Shirt",
+          "name": "Bape x Supreme",
+          "rarity": "Legendary",
+          "fairPrice": 125000,
+          "spawnChance": 0.007,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 13444831655,
+          "type": "Pants",
+          "name": "Supreme x BB",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "GoshaRubchinskiy": {
+      "Shirts": [
+        {
+          "id": 15706847529,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский x Rassvet",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 0.15,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 124794708387683,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Fila Yellow LS",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 5487023082,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Враг Свитер Черный",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15311273887,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский X Kappa Свитер",
+          "rarity": "Legendary",
+          "fairPrice": 36000,
+          "spawnChance": 0.7,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 9545499621,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Свитер Синий",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 560325375,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Худи ColorBrick",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 0.6,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 576444463,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Camo Спаси Сохрани",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 436720175,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский X Thrasher",
+          "rarity": "Legendary",
+          "fairPrice": 88000,
+          "spawnChance": 0.04,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 4996937424,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Zip Красный/Синий",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 1.2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 2118764675,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Вдруг Красный",
+          "rarity": "Legendary",
+          "fairPrice": 26000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 772695234,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Зеленый Свитер",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.03,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 607550977,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Спорт Куртка Russian",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1162019942,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский x Kappa Винтаж",
+          "rarity": "Legendary",
+          "fairPrice": 41000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 5549063522,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Свитер Зелёный",
+          "rarity": "Legendary",
+          "fairPrice": 25000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 14578854612,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Гибридный",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 1,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 5972477551,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Рождественский",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 0.015,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 126602708675680,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Вдруг Друг",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 0.015,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 101736067946702,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский Флаги",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 0.35,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1824185877,
+          "type": "Shirt",
+          "name": "Гоша Рубчинский x Kappa",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 11796928274,
+          "type": "Pants",
+          "name": "Гоша Рубчинский Рождест",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 0.06,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 884721412,
+          "type": "Pants",
+          "name": "Гоша Рубчинский x Kappa",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Burberry": {
+      "Shirts": [
+        {
+          "id": 15903662481,
+          "type": "Shirt",
+          "name": "Polo Burberry",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 13868676194,
+          "type": "Pants",
+          "name": "Burberry x Bape",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 0.2,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "OffWhite": {
+      "Shirts": [
+        {
+          "id": 6071739641,
+          "type": "Shirt",
+          "name": "Off-White Virgil Abloh Красный",
+          "rarity": "Legendary",
+          "fairPrice": 285000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 3224293748,
+          "type": "Shirt",
+          "name": "Off-White Зеленый",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 1.2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 1213373788,
+          "type": "Shirt",
+          "name": "Off-White Camo",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 590131467,
+          "type": "Shirt",
+          "name": "Off-White Бежевая",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 1,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 2474144248,
+          "type": "Shirt",
+          "name": "Off-White MonoLisa",
+          "rarity": "Legendary",
+          "fairPrice": 75000,
+          "spawnChance": 0.25,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 2518177899,
+          "type": "Shirt",
+          "name": "Off-White Свитер",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 0.7,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15084872855,
+          "type": "Shirt",
+          "name": "Off-White Черная Футболка v2",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 2.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 4809072517,
+          "type": "Shirt",
+          "name": "Off-White Белая Футболка v2",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 2.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 128971329287614,
+          "type": "Shirt",
+          "name": "Off-White Белая Футболка v3",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        }
+      ]
+    },
+    "PalmAngels": {
+      "Shirts": [
+        {
+          "id": 6274614445,
+          "type": "Shirt",
+          "name": "Palm Angels Свитшот Голубой",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 137602728499501,
+          "type": "Shirt",
+          "name": "Palm Angels Футболка v2",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 11511640225,
+          "type": "Shirt",
+          "name": "Palm Angels Футболка v3",
+          "rarity": "Legendary",
+          "fairPrice": 26000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 82632223116206,
+          "type": "Shirt",
+          "name": "Palm Angels Zip Красная",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 1.2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 5611331856,
+          "type": "Shirt",
+          "name": "Palm Angels Flame",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 6501833581,
+          "type": "Shirt",
+          "name": "Palm Angels Zip Цветок",
+          "rarity": "Legendary",
+          "fairPrice": 145000,
+          "spawnChance": 0.009,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 7205233873,
+          "type": "Shirt",
+          "name": "Palm Angels Zip Кислотный",
+          "rarity": "Legendary",
+          "fairPrice": 155000,
+          "spawnChance": 0.007,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 119801182639139,
+          "type": "Shirt",
+          "name": "Palm Angels Zip Фиолетовый",
+          "rarity": "Legendary",
+          "fairPrice": 145000,
+          "spawnChance": 0.009,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 102649937877868,
+          "type": "Pants",
+          "name": "Palm Angels x Raf Blue Red",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 9084664817,
+          "type": "Pants",
+          "name": "Palm Angels Фиолетовые",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "AcneStudios": {
+      "Shirts": [
+        {
+          "id": 114724376,
+          "type": "Shirt",
+          "name": "Acne Studios Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 0.6,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "CommedesGarcons": {
+      "Shirts": [
+        {
+          "id": 106858564910643,
+          "type": "Shirt",
+          "name": "Comme des Garcons Рубашка",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 8128676567,
+          "type": "Shirt",
+          "name": "Comme des Garcons Футболка Camo Love",
+          "rarity": "Legendary",
+          "fairPrice": 16000,
+          "spawnChance": 1.2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 84910845680321,
+          "type": "Shirt",
+          "name": "Comme des Garcons Play Футболка Черная",
+          "rarity": "Legendary",
+          "fairPrice": 10000,
+          "spawnChance": 3,
+          "economyProfile": "safe"
+        },
+        {
+          "id": 2098915062,
+          "type": "Shirt",
+          "name": "Comme des Garcons Футболка Love Белая",
+          "rarity": "Legendary",
+          "fairPrice": 12000,
+          "spawnChance": 4,
+          "economyProfile": "safe"
+        },
+        {
+          "id": 15121388489,
+          "type": "Shirt",
+          "name": "Comme des Garcons Футболка Черная",
+          "rarity": "Legendary",
+          "fairPrice": 8000,
+          "spawnChance": 6,
+          "economyProfile": "safe"
+        },
+        {
+          "id": 1074658733,
+          "type": "Shirt",
+          "name": "Comme des Garcons Синий Зип-Худи",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1079296698,
+          "type": "Shirt",
+          "name": "Comme des Garcons Футболка Белый-Красный",
+          "rarity": "Legendary",
+          "fairPrice": 10000,
+          "spawnChance": 3,
+          "economyProfile": "safe"
+        },
+        {
+          "id": 962194501,
+          "type": "Shirt",
+          "name": "Comme des Garcons Лонгслив Белый-Синий",
+          "rarity": "Legendary",
+          "fairPrice": 14000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 98965932254784,
+          "type": "Shirt",
+          "name": "Comme des Garcons X Rolling Stones Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 0.15,
+          "economyProfile": "normal"
+        }
+      ]
+    },
+    "StoneIsland": {
+      "Shirts": [
+        {
+          "id": 76328541032905,
+          "type": "Shirt",
+          "name": "Stone Island Zip-Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 1.2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 14840856734,
+          "type": "Shirt",
+          "name": "Stone Island Orange",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 14984408071,
+          "type": "Shirt",
+          "name": "Stone Island Pink",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 113679737601896,
+          "type": "Shirt",
+          "name": "Stone Island Off Day Blue",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.35,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 81220837440974,
+          "type": "Shirt",
+          "name": "Stone Island Red Hoodie Off Dye",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 0.35,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 96072265863113,
+          "type": "Shirt",
+          "name": "Stone Island Comfort Tech Purple",
+          "rarity": "Legendary",
+          "fairPrice": 145000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 12624379863,
+          "type": "Shirt",
+          "name": "Stone Island Turtleneck",
+          "rarity": "Legendary",
+          "fairPrice": 55000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 7249098498,
+          "type": "Shirt",
+          "name": "Stone Island Urban Black Yellow",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 0.6,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 8462301090,
+          "type": "Shirt",
+          "name": "Stone Island Desert Camo",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 0.8,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 8631651969,
+          "type": "Shirt",
+          "name": "Stone Island Desert Camo Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 8631755137,
+          "type": "Shirt",
+          "name": "Stone Island WATRO-TC Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 88000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 13778721234,
+          "type": "Shirt",
+          "name": "Stone Island Skin Touch Purple",
+          "rarity": "Legendary",
+          "fairPrice": 98000,
+          "spawnChance": 0.08,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 99587740919956,
+          "type": "Shirt",
+          "name": "Stone Island Shadow Tiger Camo",
+          "rarity": "Legendary",
+          "fairPrice": 125000,
+          "spawnChance": 0.04,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 111577510738468,
+          "type": "Shirt",
+          "name": "Stone Island Reflective",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 72581419227405,
+          "type": "Shirt",
+          "name": "Stone Island Comfort Tech Blue",
+          "rarity": "Legendary",
+          "fairPrice": 75000,
+          "spawnChance": 0.1,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 72056909985955,
+          "type": "Shirt",
+          "name": "Stone Island Comfort Tech Red",
+          "rarity": "Legendary",
+          "fairPrice": 82000,
+          "spawnChance": 0.1,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 78339652684003,
+          "type": "Shirt",
+          "name": "Stone Island x Supreme Белые",
+          "rarity": "Legendary",
+          "fairPrice": 165000,
+          "spawnChance": 0.008,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 13876916067,
+          "type": "Shirt",
+          "name": "Stone Island x Supreme",
+          "rarity": "Legendary",
+          "fairPrice": 165000,
+          "spawnChance": 0.008,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 8631671219,
+          "type": "Shirt",
+          "name": "Stone Island Big Loom Camo-Tc",
+          "rarity": "Legendary",
+          "fairPrice": 350000,
+          "spawnChance": 0.002,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 831537196,
+          "type": "Pants",
+          "name": "Stone Island Navy",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 8631687937,
+          "type": "Pants",
+          "name": "Stone Island Desert Camo",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 8631779021,
+          "type": "Pants",
+          "name": "Stone Island WATRO-TC",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 13779001394,
+          "type": "Pants",
+          "name": "Stone Island Purple Skin Touch",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.08,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 112790132457513,
+          "type": "Pants",
+          "name": "Stone Island x Supreme White",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 116321915070400,
+          "type": "Pants",
+          "name": "Stone Island x Supreme",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 8631708414,
+          "type": "Pants",
+          "name": "Stone Island Big Loom Camo-Tc",
+          "rarity": "Legendary",
+          "fairPrice": 280000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        }
+      ]
+    },
+    "CPCompany": {
+      "Shirts": [
+        {
+          "id": 136328494966050,
+          "type": "Shirt",
+          "name": "CP.Company Blue Puffer Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.8,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 132013565350632,
+          "type": "Shirt",
+          "name": "CP.Company DD Shell Red",
+          "rarity": "Legendary",
+          "fairPrice": 75000,
+          "spawnChance": 0.3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 100202806030453,
+          "type": "Shirt",
+          "name": "CP.Company Teal Jumper",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 3.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 98404573180892,
+          "type": "Shirt",
+          "name": "CP.Company Navy Windbreaker",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 0.15,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 139489138382284,
+          "type": "Shirt",
+          "name": "CP.Company Black Windbreaker",
+          "rarity": "Legendary",
+          "fairPrice": 88000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 86384443721939,
+          "type": "Shirt",
+          "name": "CP.Company DD Shell Green",
+          "rarity": "Legendary",
+          "fairPrice": 65000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 133857925190529,
+          "type": "Shirt",
+          "name": "CP.Company DD Shell Beige",
+          "rarity": "Legendary",
+          "fairPrice": 78000,
+          "spawnChance": 0.2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 114059977011418,
+          "type": "Shirt",
+          "name": "CP.Company Cardigan Black",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15783597806,
+          "type": "Shirt",
+          "name": "CP.Company Crewneck",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 2.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 89000210931232,
+          "type": "Shirt",
+          "name": "CP.Company Carbone Noir",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 0.6,
+          "economyProfile": "normal"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 16974632350,
+          "type": "Pants",
+          "name": "CP.Company Orange Pants",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "RacerWorldWide": {
+      "Shirts": [
+        {
+          "id": 97015229289733,
+          "type": "Shirt",
+          "name": "Racer WorldWide Леопардовая Зип-Худи",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 93929061709529,
+          "type": "Shirt",
+          "name": "Racer WorldWide Куртка из Овечьи Шкуры",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 0.08,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 101546483409686,
+          "type": "Shirt",
+          "name": "Racer WorldWide ЛонгСлив Катя Кищук",
+          "rarity": "Legendary",
+          "fairPrice": 125000,
+          "spawnChance": 0.015,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 83178088059705,
+          "type": "Pants",
+          "name": "Racer Worldwide Металлик Спортивные Штаны",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 116384868903033,
+          "type": "Pants",
+          "name": "Racer Worldwide Светлые Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 18000,
+          "spawnChance": 0.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 97856540262333,
+          "type": "Pants",
+          "name": "Racer Worldwide Спортивные Штаны",
+          "rarity": "Legendary",
+          "fairPrice": 18000,
+          "spawnChance": 0.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 124770374642522,
+          "type": "Pants",
+          "name": "Racer Worldwide Трансформ Зип Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "YojiYamamoto": {
+      "Shirts": [
+        {
+          "id": 6046174003,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Ys for Men AW2001 Godzilla",
+          "rarity": "Legendary",
+          "fairPrice": 135000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 14484000375,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Rei Ayanami Evangelion Button up",
+          "rarity": "Legendary",
+          "fairPrice": 145000,
+          "spawnChance": 0.3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 98806393103327,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Свитшот Avant Garde",
+          "rarity": "Legendary",
+          "fairPrice": 155000,
+          "spawnChance": 0.3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 98522239109315,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Зеленая Куртка",
+          "rarity": "Legendary",
+          "fairPrice": 88000,
+          "spawnChance": 0.1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 92502686962334,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Свитшот Кожанка",
+          "rarity": "Legendary",
+          "fairPrice": 450000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 10515393661,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Свитшот Spider Knit",
+          "rarity": "Legendary",
+          "fairPrice": 98000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 4794620883,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto AW 2001 Godzilla Свитшот",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.6,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 4895301291,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Heroes Leather Байкерская Куртка",
+          "rarity": "Legendary",
+          "fairPrice": 185000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 5166805183,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Свитшот Skull",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 101719135948655,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Свитшот Supreme",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 0.9,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 71906531939193,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Куртка Темно-Синяя",
+          "rarity": "Legendary",
+          "fairPrice": 520000,
+          "spawnChance": 0.003,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 8826223533,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Свитшот Smoke",
+          "rarity": "Legendary",
+          "fairPrice": 125000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 126677760564089,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto J-PT Иллюстрация",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 80317503110912,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Project Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 1,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 130162125639664,
+          "type": "Shirt",
+          "name": "Yohji Yamamoto Куртка Красная",
+          "rarity": "Legendary",
+          "fairPrice": 480000,
+          "spawnChance": 0.004,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 18606916273,
+          "type": "Pants",
+          "name": "Yohji Yamamoto Брюки",
+          "rarity": "Legendary",
+          "fairPrice": 78000,
+          "spawnChance": 5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 82141496081351,
+          "type": "Pants",
+          "name": "SS04 Yohji Yamamoto Y-3 x 3S Spotted Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Gucci": {
+      "Shirts": [
+        {
+          "id": 5680301038,
+          "type": "Shirt",
+          "name": "Gucci Tiger Tracksuit",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1518645601,
+          "type": "Shirt",
+          "name": "Gucci Tiger Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 135000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 5469366382,
+          "type": "Shirt",
+          "name": "Gucci Polo Shake",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 6,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6181344218,
+          "type": "Shirt",
+          "name": "Gucci Star Sweater",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1081054865,
+          "type": "Shirt",
+          "name": "Gucci Coco Capitan",
+          "rarity": "Legendary",
+          "fairPrice": 245000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 3370348998,
+          "type": "Shirt",
+          "name": "Gucci X Tee",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 2109554074,
+          "type": "Shirt",
+          "name": "Gucci x LV Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 135570927510919,
+          "type": "Shirt",
+          "name": "Gucci Blind For Love Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 1083553645,
+          "type": "Shirt",
+          "name": "Gucci Sweatshirt Planet",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 5680301038,
+          "type": "Pants",
+          "name": "Gucci Tiger Tracksuit",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 70522682896000,
+          "type": "Pants",
+          "name": "Zapatillas Gucci X Amiri",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        }
+      ]
+    },
+    "LouisVuitton": {
+      "Shirts": [
+        {
+          "id": 5836356608,
+          "type": "Shirt",
+          "name": "LV x TNF",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 5226567361,
+          "type": "Shirt",
+          "name": "Supreme x LV",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 1565502110,
+          "type": "Shirt",
+          "name": "Supreme x Bape x LV",
+          "rarity": "Legendary",
+          "fairPrice": 140000,
+          "spawnChance": 0.1,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 967030312,
+          "type": "Pants",
+          "name": "LV Balmains",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Balenciaga": {
+      "Shirts": [
+        {
+          "id": 102510983142980,
+          "type": "Shirt",
+          "name": "Balenciaga x Fortnite",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 10890916959,
+          "type": "Shirt",
+          "name": "Balenciaga Campaign",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 3138759109,
+          "type": "Shirt",
+          "name": "Balenciaga x Gucci",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 12774350595,
+          "type": "Shirt",
+          "name": "Balenciaga GAMER",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 16648632262,
+          "type": "Shirt",
+          "name": "Balenciaga GAMER Denim Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 17750429116,
+          "type": "Shirt",
+          "name": "Balenciaga GAMER Bomber",
+          "rarity": "Legendary",
+          "fairPrice": 140000,
+          "spawnChance": 0.15,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 5314403312,
+          "type": "Shirt",
+          "name": "Balenciaga Jean Jacket X Gosha",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 17747885598,
+          "type": "Shirt",
+          "name": "Balenciaga X Under Armor",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15453420607,
+          "type": "Shirt",
+          "name": "Balenciaga Speed Runner Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 55000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 95032444256650,
+          "type": "Shirt",
+          "name": "Balenciaga 3B Sports Deutsche Bahn",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 3785693742,
+          "type": "Shirt",
+          "name": "Balenciaga Grey Jumper",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 16648534737,
+          "type": "Shirt",
+          "name": "Balenciaga Resort 2023",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 13676876559,
+          "type": "Shirt",
+          "name": "Balenciaga Distressed Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 2074367249,
+          "type": "Shirt",
+          "name": "TH Hoodie X Balenciaga x RAF",
+          "rarity": "Legendary",
+          "fairPrice": 220000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 129646863766412,
+          "type": "Shirt",
+          "name": "Balenciaga Tokyo Cut",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 118565360972858,
+          "type": "Shirt",
+          "name": "Balenciaga Nasa Bomber Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 350000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 121457728585002,
+          "type": "Shirt",
+          "name": "Balenciaga Hoodie Alien",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 121852578331304,
+          "type": "Shirt",
+          "name": "Balenciaga Runway Polo Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 15825720917,
+          "type": "Shirt",
+          "name": "Balenciaga Logo Print Hoodie Blue",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 109182717388810,
+          "type": "Shirt",
+          "name": "Balenciaga Red Crimson Windbreaker",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 18813584909,
+          "type": "Shirt",
+          "name": "Balenciaga Reversible Bomber Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 150000,
+          "spawnChance": 0.1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 4590342417,
+          "type": "Shirt",
+          "name": "Balenciaga Paris Moon Sweater",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 130342095571450,
+          "type": "Shirt",
+          "name": "Balenciaga Paris",
+          "rarity": "Legendary",
+          "fairPrice": 245000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 16662225319,
+          "type": "Shirt",
+          "name": "Balenciaga Runway",
+          "rarity": "Legendary",
+          "fairPrice": 300000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 106747850464319,
+          "type": "Pants",
+          "name": "Balenciaga Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 80892498626861,
+          "type": "Pants",
+          "name": "Balenciaga Under Armor",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 126517779663023,
+          "type": "Pants",
+          "name": "Balenciaga Grey Skater Sweatpants",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 2.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 91597530501326,
+          "type": "Pants",
+          "name": "Balenciaga Blue Skater Sweatpants",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 2.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 15732426795,
+          "type": "Pants",
+          "name": "Balenciaga Red Skater Sweatpants",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 2.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 127906814275652,
+          "type": "Pants",
+          "name": "Balenciaga Leather",
+          "rarity": "Legendary",
+          "fairPrice": 320000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 14072460151,
+          "type": "Pants",
+          "name": "Balenciaga Gamer Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 108319716834601,
+          "type": "Pants",
+          "name": "Balenciaga NASA",
+          "rarity": "Legendary",
+          "fairPrice": 140000,
+          "spawnChance": 0.1,
+          "economyProfile": "trap"
+        }
+      ]
+    },
+    "RickOwens": {
+      "Shirts": [
+        {
+          "id": 8573407381,
+          "type": "Shirt",
+          "name": "Rick Owens x Moncler",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 104312480723109,
+          "type": "Shirt",
+          "name": "Rick Owens Джинсовка Красная",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 126666180709430,
+          "type": "Shirt",
+          "name": "Rick Owens Джинсовка Желтая",
+          "rarity": "Legendary",
+          "fairPrice": 115000,
+          "spawnChance": 1.2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 73715775795954,
+          "type": "Shirt",
+          "name": "Rick Owens Зип Джинсовка Розовая",
+          "rarity": "Legendary",
+          "fairPrice": 135000,
+          "spawnChance": 0.8,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 118047677275927,
+          "type": "Shirt",
+          "name": "Rick Owens Футболка Vamp",
+          "rarity": "Legendary",
+          "fairPrice": 150000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 8502567661,
+          "type": "Shirt",
+          "name": "Rick Owens Runway",
+          "rarity": "Legendary",
+          "fairPrice": 180000,
+          "spawnChance": 0.3,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 107120598536058,
+          "type": "Pants",
+          "name": "Rick Owens Джинсы Розовые",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 113528327971525,
+          "type": "Pants",
+          "name": "Rick Leather",
+          "rarity": "Legendary",
+          "fairPrice": 125000,
+          "spawnChance": 1,
+          "economyProfile": "jackpot"
+        }
+      ]
+    },
+    "ChromeHearts": {
+      "Shirts": [
+        {
+          "id": 10322816389,
+          "type": "Shirt",
+          "name": "Chrome Hearts Rainbow Cross",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 6,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6678207948,
+          "type": "Shirt",
+          "name": "Chrome Hearts Gray Sweater",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 2.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 96426276627952,
+          "type": "Shirt",
+          "name": "Chrome Hearts Red Shirt",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 16919855211,
+          "type": "Shirt",
+          "name": "Chrome Hearts Multi-Colour Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 125000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 97057584627432,
+          "type": "Shirt",
+          "name": "Chrome Hearts T Logo USA Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 245000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 6198234501,
+          "type": "Shirt",
+          "name": "Chrome Hearts Zip Up Black",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 18968804436,
+          "type": "Shirt",
+          "name": "Chrome Hearts Grunge",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 6,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 80849817692916,
+          "type": "Shirt",
+          "name": "Chrome Hearts Camo Matty",
+          "rarity": "Legendary",
+          "fairPrice": 190000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 5944585412,
+          "type": "Shirt",
+          "name": "Chrome Hearts x Off-White Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 320000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 132675671197247,
+          "type": "Shirt",
+          "name": "Chrome Hearts Black Pink LS",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12852126142,
+          "type": "Shirt",
+          "name": "Chrome Hearts Miami Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 118000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 7369775832,
+          "type": "Shirt",
+          "name": "Chrome Hearts x LV Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 380000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 18428381620,
+          "type": "Shirt",
+          "name": "Chrome Hearts Matty Boy Space",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 11454813839,
+          "type": "Shirt",
+          "name": "Chrome Hearts Yellow Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 99648384101964,
+          "type": "Shirt",
+          "name": "Chrome Hearts Matty Boy Sweatshirt",
+          "rarity": "Legendary",
+          "fairPrice": 98000,
+          "spawnChance": 1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 14127820281,
+          "type": "Shirt",
+          "name": "Chrome Hearts Cyan",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 88657092267618,
+          "type": "Shirt",
+          "name": "Chrome Hearts Rainbow Sweatshirt",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6447552136,
+          "type": "Shirt",
+          "name": "Chrome Hearts Cyan Alt",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 138131982318663,
+          "type": "Shirt",
+          "name": "Chrome Hearts Cross Patch Dog",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 18400219160,
+          "type": "Shirt",
+          "name": "Chrome Hearts Zip Up Hoodie Black",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 105944594585999,
+          "type": "Shirt",
+          "name": "Chrome Hearts Tee",
+          "rarity": "Legendary",
+          "fairPrice": 32000,
+          "spawnChance": 6,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 16582495088,
+          "type": "Shirt",
+          "name": "Chrome Hearts Basic Tee",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 8,
+          "economyProfile": "safe"
+        },
+        {
+          "id": 7381767617,
+          "type": "Shirt",
+          "name": "Chrome Hearts Orange Sweater",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 91736052828109,
+          "type": "Shirt",
+          "name": "Chrome Hearts Red & Green Sweater",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 104233925082759,
+          "type": "Pants",
+          "name": "Chrome Hearts Sweats Black",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 10,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 16430470261,
+          "type": "Pants",
+          "name": "Chrome Hearts Multi Color Cargos",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 76648512722512,
+          "type": "Pants",
+          "name": "Chrome Hearts Rolling Stones",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 135762991942060,
+          "type": "Pants",
+          "name": "Chrome Hearts Ryft Davis",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 138849171597664,
+          "type": "Pants",
+          "name": "Chrome Hearts Grey Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 10946069856,
+          "type": "Pants",
+          "name": "Chrome Hearts Pink-Black Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15696366766,
+          "type": "Pants",
+          "name": "Chrome Hearts Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 7136404055,
+          "type": "Pants",
+          "name": "Chrome Hearts Blue Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 7548737350,
+          "type": "Pants",
+          "name": "Chrome Hearts Orange Pants",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 15167782987,
+          "type": "Pants",
+          "name": "Chrome Hearts Red Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 2.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 16733661093,
+          "type": "Pants",
+          "name": "Chrome Hearts Gray Denim Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 4,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 7902431224,
+          "type": "Pants",
+          "name": "Chrome Hearts Blue Jeans Chrome",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 7248675948,
+          "type": "Pants",
+          "name": "Chrome Hearts X LV Jeans",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 9026168961,
+          "type": "Pants",
+          "name": "Chrome Hearts Red And Blue",
+          "rarity": "Legendary",
+          "fairPrice": 28000,
+          "spawnChance": 3,
+          "economyProfile": "normal"
+        }
+      ]
+    },
+    "Moncler": {
+      "Shirts": [
+        {
+          "id": 6488586195,
+          "type": "Shirt",
+          "name": "Moncler Vest Classic",
+          "rarity": "Legendary",
+          "fairPrice": 36000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 5341316022,
+          "type": "Shirt",
+          "name": "Moncler Gray Sweater",
+          "rarity": "Legendary",
+          "fairPrice": 36000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6142390555,
+          "type": "Shirt",
+          "name": "Moncler Gray Vest",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6488509541,
+          "type": "Shirt",
+          "name": "Moncler Red Tracksuit",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 4831711963,
+          "type": "Shirt",
+          "name": "Moncler TriColor Windbreaker",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 6488495444,
+          "type": "Shirt",
+          "name": "Moncler Puffer Logo",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 9375216024,
+          "type": "Shirt",
+          "name": "Moncler Black Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 1.5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6455447817,
+          "type": "Shirt",
+          "name": "Moncler Red Puffer",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15338842140,
+          "type": "Shirt",
+          "name": "Moncler Black Tapered Tracksuit",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 8446274538,
+          "type": "Shirt",
+          "name": "Moncler Parka Coat",
+          "rarity": "Legendary",
+          "fairPrice": 55000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 5964876790,
+          "type": "Shirt",
+          "name": "Moncler x Palm Angels Red Zip",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 8165648352,
+          "type": "Shirt",
+          "name": "Moncler x Palm Angels Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 6505230098,
+          "type": "Shirt",
+          "name": "Moncler Blue Zip-Up",
+          "rarity": "Legendary",
+          "fairPrice": 60000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 9384199608,
+          "type": "Shirt",
+          "name": "Moncler Blue Coat",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 6787299886,
+          "type": "Shirt",
+          "name": "Moncler Maroon Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 6505230906,
+          "type": "Shirt",
+          "name": "Moncler Green Zip-up",
+          "rarity": "Legendary",
+          "fairPrice": 55000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 3689506848,
+          "type": "Shirt",
+          "name": "Moncler Multi Colored Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 60000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 13876237671,
+          "type": "Shirt",
+          "name": "Moncler x Palm Angels Black",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 12636365033,
+          "type": "Shirt",
+          "name": "Moncler X PA Blue Tracksuit Top",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12621049069,
+          "type": "Shirt",
+          "name": "Moncler X PA Forest Green Top",
+          "rarity": "Legendary",
+          "fairPrice": 75000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 6455444988,
+          "type": "Shirt",
+          "name": "Moncler Purple Bubble Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 14396989862,
+          "type": "Shirt",
+          "name": "Moncler x PA Puffer Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 5029449211,
+          "type": "Shirt",
+          "name": "Moncler Striped Technical",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 11674658197,
+          "type": "Shirt",
+          "name": "Moncler Spider",
+          "rarity": "Legendary",
+          "fairPrice": 105000,
+          "spawnChance": 0.1,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 11484662800,
+          "type": "Shirt",
+          "name": "Moncler x PA Kelsey Puffer Blue",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.1,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 13429337006,
+          "type": "Shirt",
+          "name": "Moncler x PA Fiber Light Puffer",
+          "rarity": "Legendary",
+          "fairPrice": 400000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 6488509541,
+          "type": "Pants",
+          "name": "Moncler Red Tracksuit Bottom",
+          "rarity": "Legendary",
+          "fairPrice": 36000,
+          "spawnChance": 2,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 15338842140,
+          "type": "Pants",
+          "name": "Moncler Black Tracksuit Bottom",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 5459824215,
+          "type": "Pants",
+          "name": "Moncler X PA Trackpants",
+          "rarity": "Legendary",
+          "fairPrice": 52000,
+          "spawnChance": 0.8,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12636365033,
+          "type": "Pants",
+          "name": "Moncler X PA Blue Tracksuit Bot",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12621050748,
+          "type": "Pants",
+          "name": "Moncler X PA Forest Green Bot",
+          "rarity": "Legendary",
+          "fairPrice": 60000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12621049069,
+          "type": "Pants",
+          "name": "Moncler X PA FG Tracksuit Bot",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 0.3,
+          "economyProfile": "trap"
+        }
+      ]
+    },
+    "ERD": {
+      "Shirts": [
+        {
+          "id": 123606003052906,
+          "type": "Shirt",
+          "name": "ERD Белый Лонг",
+          "rarity": "Legendary",
+          "fairPrice": 38000,
+          "spawnChance": 12,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 96169343442413,
+          "type": "Shirt",
+          "name": "ERD Destroyed Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 114724376,
+          "type": "Shirt",
+          "name": "ERD Skull Denim Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 140000,
+          "spawnChance": 1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 121570221608171,
+          "type": "Shirt",
+          "name": "ERD Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 10,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6384915757,
+          "type": "Shirt",
+          "name": "ERD Vintage Washed Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 89912258455155,
+          "type": "Shirt",
+          "name": "ERD Голубой Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 150000,
+          "spawnChance": 1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 101084350202088,
+          "type": "Shirt",
+          "name": "ERD Bully Худи",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12001043338,
+          "type": "Shirt",
+          "name": "ERD Distressed Zip Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 170000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 72161303025169,
+          "type": "Shirt",
+          "name": "ERD Красная Джинсовка",
+          "rarity": "Legendary",
+          "fairPrice": 450000,
+          "spawnChance": 0.02,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 112414916707189,
+          "type": "Shirt",
+          "name": "ERD Archive Худи Красный",
+          "rarity": "Legendary",
+          "fairPrice": 310000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 117808202442208,
+          "type": "Shirt",
+          "name": "ERD Archive Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 290000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 134667894646939,
+          "type": "Pants",
+          "name": "ERD Потертые Джинсы v1",
+          "rarity": "Legendary",
+          "fairPrice": 55000,
+          "spawnChance": 14,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 121920454802593,
+          "type": "Pants",
+          "name": "ERD Потертые Джинсы v2",
+          "rarity": "Legendary",
+          "fairPrice": 8000,
+          "spawnChance": 5,
+          "economyProfile": "safe"
+        },
+        {
+          "id": 96427517504184,
+          "type": "Pants",
+          "name": "ERD x Rick Owens Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 140000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 105784899081783,
+          "type": "Pants",
+          "name": "ERD Красные Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 145000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 18391375923,
+          "type": "Pants",
+          "name": "ERD Archive Trousers",
+          "rarity": "Legendary",
+          "fairPrice": 220000,
+          "spawnChance": 0.1,
+          "economyProfile": "jackpot"
+        }
+      ]
+    },
+    "RafSimons": {
+      "Shirts": [
+        {
+          "id": 15570425228,
+          "type": "Shirt",
+          "name": "Raf Simons Hoodie",
+          "rarity": "Legendary",
+          "fairPrice": 150000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 111577229615749,
+          "type": "Shirt",
+          "name": "Raf Simons Brian Calvin Beer Girl",
+          "rarity": "Legendary",
+          "fairPrice": 135000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 123791858080621,
+          "type": "Shirt",
+          "name": "Raf Simons Christiane F Tees AW18",
+          "rarity": "Legendary",
+          "fairPrice": 195000,
+          "spawnChance": 0.3,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 86535840755601,
+          "type": "Shirt",
+          "name": "Raf Simons Поло Красное",
+          "rarity": "Legendary",
+          "fairPrice": 45000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 128994040799428,
+          "type": "Shirt",
+          "name": "Raf Simons Black Christiane F AW18",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 101022741927139,
+          "type": "Shirt",
+          "name": "Raf Simons Красный Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 98000,
+          "spawnChance": 1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 138441760917041,
+          "type": "Shirt",
+          "name": "Raf Simons Brian Calvin Beer Girl Tee",
+          "rarity": "Legendary",
+          "fairPrice": 145000,
+          "spawnChance": 0.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 78423426771931,
+          "type": "Shirt",
+          "name": "Raf Simons Худи Серый",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 117354704887130,
+          "type": "Shirt",
+          "name": "Raf Simons Бомбер Белый",
+          "rarity": "Legendary",
+          "fairPrice": 160000,
+          "spawnChance": 0.3,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 82418962692790,
+          "type": "Shirt",
+          "name": "Raf Simons Красный Лонгслив v2",
+          "rarity": "Legendary",
+          "fairPrice": 82000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 10443560332,
+          "type": "Shirt",
+          "name": "Raf Simons AW01 Runway",
+          "rarity": "Legendary",
+          "fairPrice": 950000,
+          "spawnChance": 0.002,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 92202912411173,
+          "type": "Shirt",
+          "name": "Raf Simons SS10 Sterling Ruby Shirt",
+          "rarity": "Legendary",
+          "fairPrice": 280000,
+          "spawnChance": 0.1,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 130901526860219,
+          "type": "Pants",
+          "name": "Raf Simons Replicant Черный",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 6,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 111916884328976,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego 2 Khaki Gold",
+          "rarity": "Legendary",
+          "fairPrice": 120000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 94733727431242,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego Metallic Pink",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 111846279148302,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego 3 Black Scarlett",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 90331150141619,
+          "type": "Pants",
+          "name": "Raf Simons Antei Purple",
+          "rarity": "Legendary",
+          "fairPrice": 48000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 126634936837558,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego 3 Bunny Cream",
+          "rarity": "Legendary",
+          "fairPrice": 65000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 75557197142540,
+          "type": "Pants",
+          "name": "Raf Simons Ultrasceptre Black",
+          "rarity": "Legendary",
+          "fairPrice": 65000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 92971638700357,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego 2 Yellow Navy",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 106963684303925,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego 2 Gray Green",
+          "rarity": "Legendary",
+          "fairPrice": 68000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 72166817530697,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego Replicant Green",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 74807243654778,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego 2 Blue Red Lucora",
+          "rarity": "Legendary",
+          "fairPrice": 75000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 90321397681781,
+          "type": "Pants",
+          "name": "Raf Simons Ozweego Replicant Brown",
+          "rarity": "Legendary",
+          "fairPrice": 58000,
+          "spawnChance": 1,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 74621497123361,
+          "type": "Pants",
+          "name": "Raf Simons Pharaxus Green Black",
+          "rarity": "Legendary",
+          "fairPrice": 680000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 84894983746398,
+          "type": "Pants",
+          "name": "Raf Simons 2-CB GHB Patchwork",
+          "rarity": "Legendary",
+          "fairPrice": 270000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 81190837714692,
+          "type": "Pants",
+          "name": "Raf Simons LSD White",
+          "rarity": "Legendary",
+          "fairPrice": 225000,
+          "spawnChance": 0.1,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 137535052172555,
+          "type": "Pants",
+          "name": "Raf Simons Cylon 21 Red",
+          "rarity": "Legendary",
+          "fairPrice": 70000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "NumberNine": {
+      "Shirts": [
+        {
+          "id": 18632819218,
+          "type": "Shirt",
+          "name": "Number(N)ine Коричневое Худи",
+          "rarity": "Legendary",
+          "fairPrice": 92000,
+          "spawnChance": 10,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 18632881138,
+          "type": "Shirt",
+          "name": "Number(N)ine Серое Худи",
+          "rarity": "Legendary",
+          "fairPrice": 98000,
+          "spawnChance": 5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 93772836697005,
+          "type": "Shirt",
+          "name": "Number(N)ine Shield Серое Худи",
+          "rarity": "Legendary",
+          "fairPrice": 140000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 92179729406275,
+          "type": "Shirt",
+          "name": "Number(N)ine Красный Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 10,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 6384915757,
+          "type": "Shirt",
+          "name": "Number(N)ine Винтажная Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 14885532600,
+          "type": "Shirt",
+          "name": "Number(N)ine Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 150000,
+          "spawnChance": 1.5,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 12274864949,
+          "type": "Shirt",
+          "name": "Number(N)ine Черный Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 2,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 133885913046054,
+          "type": "Shirt",
+          "name": "Number(N)ine Zip Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 220000,
+          "spawnChance": 0.3,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 121413776309543,
+          "type": "Shirt",
+          "name": "Number(N)ine Серая Zip Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 245000,
+          "spawnChance": 0.15,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 17573405255,
+          "type": "Shirt",
+          "name": "Number(N)ine Серый Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 310000,
+          "spawnChance": 0.05,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 126218652868749,
+          "type": "Shirt",
+          "name": "Number(N)ine Shield Черное Худи",
+          "rarity": "Legendary",
+          "fairPrice": 420000,
+          "spawnChance": 0.01,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 18323948073,
+          "type": "Pants",
+          "name": "Number(N)ine Черные Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 55000,
+          "spawnChance": 14,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 74773415025845,
+          "type": "Pants",
+          "name": "Number(N)ine Потертые Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 5,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Alyx": {
+      "Shirts": [
+        {
+          "id": 16949566048,
+          "type": "Shirt",
+          "name": "1017 ALYX 9SM Куртка Зип",
+          "rarity": "Legendary",
+          "fairPrice": 22000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Vetements": {
+      "Shirts": [
+        {
+          "id": 17508312479,
+          "type": "Shirt",
+          "name": "Vetements Anarchy",
+          "rarity": "Legendary",
+          "fairPrice": 85000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 11290616968,
+          "type": "Shirt",
+          "name": "Vetements Бомбер Полиция",
+          "rarity": "Legendary",
+          "fairPrice": 135000,
+          "spawnChance": 0.15,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 137163050708182,
+          "type": "Shirt",
+          "name": "Vetements Бомбер Зеленый",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 72319118602062,
+          "type": "Shirt",
+          "name": "Vetements Футболка Оранжевая",
+          "rarity": "Legendary",
+          "fairPrice": 36000,
+          "spawnChance": 6,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 83260757337933,
+          "type": "Shirt",
+          "name": "Vetements Бомбер Тёмно-Зеленый",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 85918020485117,
+          "type": "Shirt",
+          "name": "Vetements Бомбер",
+          "rarity": "Legendary",
+          "fairPrice": 95000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 79406613328258,
+          "type": "Shirt",
+          "name": "Vetements Зип-Худи",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 76107508359689,
+          "type": "Shirt",
+          "name": "Vetements Бомбер Красный",
+          "rarity": "Legendary",
+          "fairPrice": 110000,
+          "spawnChance": 0.25,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 87574055123730,
+          "type": "Shirt",
+          "name": "Vetements Футболка Зеленая Polizei",
+          "rarity": "Legendary",
+          "fairPrice": 30000,
+          "spawnChance": 5,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 95196500046820,
+          "type": "Shirt",
+          "name": "Vetements Clothing Green",
+          "rarity": "Legendary",
+          "fairPrice": 82000,
+          "spawnChance": 0.4,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 4552458056,
+          "type": "Shirt",
+          "name": "Vetements Antwerp Темно-Красное",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 0.8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 18720565312,
+          "type": "Shirt",
+          "name": "Vetements Antwerp Красный",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 137359038396430,
+          "type": "Shirt",
+          "name": "Vetements Antwerpen Белая v1",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 1,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 132864531993350,
+          "type": "Shirt",
+          "name": "Vetements 204 Hyoma Raf Reconstructed",
+          "rarity": "Legendary",
+          "fairPrice": 42000,
+          "spawnChance": 0.5,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 15564674128,
+          "type": "Shirt",
+          "name": "Vetements Antwerpen Белая v2",
+          "rarity": "Legendary",
+          "fairPrice": 34000,
+          "spawnChance": 1.5,
+          "economyProfile": "risky"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 140407383932406,
+          "type": "Pants",
+          "name": "Vetements Джинсы Потертые",
+          "rarity": "Legendary",
+          "fairPrice": 20000,
+          "spawnChance": 14,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 76125724763039,
+          "type": "Pants",
+          "name": "Vetements Спортивки Белые",
+          "rarity": "Legendary",
+          "fairPrice": 16000,
+          "spawnChance": 14,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 83309274927695,
+          "type": "Pants",
+          "name": "Vetements Спортивки Черный",
+          "rarity": "Legendary",
+          "fairPrice": 16000,
+          "spawnChance": 10,
+          "economyProfile": "normal"
+        },
+        {
+          "id": 119701709069263,
+          "type": "Pants",
+          "name": "Vetements Синие-Джинсы Потертые",
+          "rarity": "Legendary",
+          "fairPrice": 24000,
+          "spawnChance": 10,
+          "economyProfile": "normal"
+        }
+      ]
+    },
+    "MaisonMargiela": {
+      "Shirts": [
+        {
+          "id": 85073157438003,
+          "type": "Shirt",
+          "name": "Maison Margiela Куртка из Ремней",
+          "rarity": "Legendary",
+          "fairPrice": 120000,
+          "spawnChance": 0.005,
+          "economyProfile": "jackpot"
+        },
+        {
+          "id": 122013146968984,
+          "type": "Shirt",
+          "name": "Maison Margiela Зеленый Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 65532,
+          "spawnChance": 5,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 116378390555375,
+          "type": "Shirt",
+          "name": "Maison Margiela Рубашка",
+          "rarity": "Legendary",
+          "fairPrice": 62000,
+          "spawnChance": 2,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 78070667368419,
+          "type": "Shirt",
+          "name": "Maison Margiela Женская Меховая Куртка",
+          "rarity": "Legendary",
+          "fairPrice": 100000,
+          "spawnChance": 0.2,
+          "economyProfile": "jackpot"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 110732769471130,
+          "type": "Pants",
+          "name": "Maison Margiela Темные Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 49000,
+          "spawnChance": 3,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Prada": {
+      "Shirts": [
+        {
+          "id": 1352050964,
+          "type": "Shirt",
+          "name": "Prada Re-Nylon Jacket",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Goyard": {
+      "Shirts": [
+        {
+          "id": 6763195390,
+          "type": "Shirt",
+          "name": "Goyard Зеленая Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 75000,
+          "spawnChance": 0.5,
+          "economyProfile": "risky"
+        }
+      ]
+    },
+    "Dior": {
+      "Shirts": [
+        {
+          "id": 18370037012,
+          "type": "Shirt",
+          "name": "Dior Футболка",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 90616242454062,
+          "type": "Shirt",
+          "name": "Dior Лонгслив",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 18147276987,
+          "type": "Shirt",
+          "name": "Dior Свитшот",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "risky"
+        },
+        {
+          "id": 97862381126886,
+          "type": "Shirt",
+          "name": "Dior Худи",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 123326322310262,
+          "type": "Shirt",
+          "name": "Dior Свитер",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 97916957692926,
+          "type": "Shirt",
+          "name": "Dior Зип Худи",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "trap"
+        },
+        {
+          "id": 10371714762,
+          "type": "Shirt",
+          "name": "Dior Зип",
+          "rarity": "Legendary",
+          "fairPrice": 72000,
+          "spawnChance": 8,
+          "economyProfile": "risky"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 123849684818742,
+          "type": "Pants",
+          "name": "Dior Джинсы",
+          "rarity": "Legendary",
+          "fairPrice": 0,
+          "spawnChance": 0
+        },
+        {
+          "id": 95355826679848,
+          "type": "Pants",
+          "name": "Dior Шорты",
+          "rarity": "Legendary",
+          "fairPrice": 0,
+          "spawnChance": 0
+        }
+      ]
+    },
+    "Femboy": {
+      "Shirts": [
+        {
+          "id": 75171957883826,
+          "type": "Shirt",
+          "name": "Femboy свитшот",
+          "rarity": "Legendary",
+          "fairPrice": 0,
+          "spawnChance": 0
+        }
+      ],
+      "Pants": [
+        {
+          "id": 89241492697318,
+          "type": "Pants",
+          "name": "Femboy штаны",
+          "rarity": "Legendary",
+          "fairPrice": 0,
+          "spawnChance": 0
+        }
+      ]
+    },
+    "Apple": [
+      {
+        "id": "iphone_17o",
+        "templateId": "18151141789",
+        "type": "Phone",
+        "name": "iPhone 17 Pro Max Оранжевый",
+        "rarity": "Legendary",
+        "fairPrice": 165000,
+        "spawnChance": 2,
+        "economyProfile": "risky"
+      },
+      {
+        "id": "iphone_17b",
+        "templateId": "18151141789",
+        "type": "Phone",
+        "name": "iPhone 17 Pro Max Черный",
+        "rarity": "Legendary",
+        "fairPrice": 165000,
+        "spawnChance": 2,
+        "economyProfile": "risky"
+      }
+    ],
+    "Samsung": [
+      {
+        "id": "galaxy_s24_ultra",
+        "templateId": "18151141789",
+        "type": "Phone",
+        "name": "Galaxy S24 Ultra",
+        "rarity": "Legendary",
+        "fairPrice": 138000,
+        "spawnChance": 3,
+        "economyProfile": "risky"
+      }
+    ]
+  }
+}
