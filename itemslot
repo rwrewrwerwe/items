@@ -2666,15 +2666,6 @@
           "economyProfile": "risky"
         },
         {
-          "id": 114724376,
-          "type": "Shirt",
-          "name": "ERD Skull Denim Jacket",
-          "rarity": "Legendary",
-          "fairPrice": 140000,
-          "spawnChance": 1,
-          "economyProfile": "trap"
-        },
-        {
           "id": 121570221608171,
           "type": "Shirt",
           "name": "ERD Лонгслив",
