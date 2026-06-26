@@ -813,19 +813,6 @@
         }
       ]
     },
-    "AcneStudios": {
-      "Shirts": [
-        {
-          "id": 114724376,
-          "type": "Shirt",
-          "name": "Acne Studios Jacket",
-          "rarity": "Legendary",
-          "fairPrice": 68000,
-          "spawnChance": 0.6,
-          "economyProfile": "risky"
-        }
-      ]
-    },
     "CommedesGarcons": {
       "Shirts": [
         {
@@ -2773,15 +2760,6 @@
           "rarity": "Legendary",
           "fairPrice": 145000,
           "spawnChance": 0.5,
-          "economyProfile": "jackpot"
-        },
-        {
-          "id": 18391375923,
-          "type": "Pants",
-          "name": "ERD Archive Trousers",
-          "rarity": "Legendary",
-          "fairPrice": 220000,
-          "spawnChance": 0.1,
           "economyProfile": "jackpot"
         }
       ]
