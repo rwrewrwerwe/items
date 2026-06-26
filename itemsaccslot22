@@ -1,0 +1,2754 @@
+local v_u_1 = {
+	Categories = {
+		Hat = { name = "Головные уборы", icon = "rbxassetid://6031071050", order = 1 },
+		Back = { name = "Рюкзаки", icon = "rbxassetid://6031071053", order = 2 },
+		Face = { name = "Очки и маски", icon = "rbxassetid://6031071049", order = 3 },
+		Neck = { name = "Цепочки и шарфы", icon = "rbxassetid://6031071051", order = 4 },
+		Waist = { name = "Поясные сумки", icon = "rbxassetid://6031071052", order = 5 },
+		Shoulder = { name = "На плечо", icon = "rbxassetid://6031071054", order = 6 },
+		Front = { name = "Сумки спереди", icon = "rbxassetid://6031071055", order = 7 },
+		Shoes = { name = "Кроссовки", icon = "rbxassetid://6031071050", order = 8 }
+	}
+}
+
+local v2 = {
+	Hats = {
+		{
+			id = "14141451141",
+			name = "Delivery Kaif Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "14141451",
+			isMultiPart = true
+		},
+		{
+			id = "back19419",
+			name = "Walter Van Beirendonck x Eastpak SS26",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "back19419",
+			isMultiPart = true
+		},
+		{
+			id = "krilia",
+			name = "Крылья",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "krilia",
+			isMultiPart = true
+		},
+		{
+			id = "Carti1",
+			name = "PlayBoy Carti Шляпа",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Carti",
+			isMultiPart = true
+		},
+		{
+			id = "B1kf",
+			name = "Ковбойская Шляпа",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "B1kf",
+			isMultiPart = true
+		},
+		{
+			id = "back149",
+			name = "Рюкзак с Цветами",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "back149",
+			isMultiPart = true
+		},
+		{
+			id = "Spray1",
+			name = "Sprayground Bear Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Spray1",
+			isMultiPart = true
+		},
+		{
+			id = "Krest1",
+			name = "Saint Laurent Крест Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Krest1",
+			isMultiPart = true
+		},
+		{
+			id = "Bitcoin1",
+			name = "Цепь Bitcoin",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Bitcoin1",
+			isMultiPart = true
+		},
+		{
+			id = "Goayrd1",
+			name = "Goyard Рюкзак Красный",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Goayrd1",
+			isMultiPart = true
+		},
+		{
+			id = "DiorB22white",
+			bundleId = 154899493620532,
+			name = "Dior B22 Белый",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Balenciaga",
+			spawnChance = 0,
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "DiorB22green",
+			bundleId = 24890342143009,
+			name = "Dior B22 Зеленый",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Balenciaga",
+			spawnChance = 0,
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "LV1",
+			name = "Louis Vuitton Ski Маска",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "LV1",
+			isMultiPart = true
+		},
+		{
+			id = "CatMask",
+			name = "Маска Кота",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "CatMask",
+			isMultiPart = true
+		},
+		{
+			id = "Mcqueen1",
+			name = "McQueen Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Mcqueen1",
+			isMultiPart = true
+		},
+		{
+			id = "BurgerKing1",
+			name = "Burger King Корона",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "BurgerKing1",
+			isMultiPart = true
+		},
+		{
+			id = "Craig1",
+			name = "Craig Morrison Рюкзак Розовый",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Craig1",
+			isMultiPart = true
+		},
+		{
+			id = "Rastaman",
+			name = "Rastaman Шапка",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Rastaman",
+			isMultiPart = true
+		},
+		{
+			id = "Cap981",
+			name = "Кепка С Пропеллером",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Cap981",
+			isMultiPart = true
+		},
+		{
+			id = "UsaBack",
+			name = "USA Сумка",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "UsaBack",
+			isMultiPart = true
+		},
+		{
+			id = "McqueenRar",
+			name = "McQueen Очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "McqueenRar",
+			isMultiPart = true
+		},
+		{
+			id = "Jordan11",
+			bundleId = 169403854975585,
+			name = "Jordan 11",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Balenciaga",
+			spawnChance = 0,
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "Timberland",
+			bundleId = 4158763773383,
+			name = "Timberland Ботинки",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Balenciaga",
+			spawnChance = 0,
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "McQueenCrocs",
+			bundleId = 155208184404566,
+			name = "McQueen Кроксы",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Balenciaga",
+			spawnChance = 0,
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "SkillCap",
+			name = "Mastermind Кепка",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "SkillCap",
+			isMultiPart = true
+		},
+		{
+			id = "tungtung_sahurChair",
+			name = "Tung Tung Sahur Цепочка",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Tung1",
+			isMultiPart = true
+		},
+		{
+			id = "YandexDelivery",
+			name = "Яндекс Доставка Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Yandex",
+			isMultiPart = true
+		},
+		{
+			id = "LitEnergy\208\162\209\128\209\131\208\177\208\186\208\176",
+			name = "Кепка Lit Energy с Трубкой",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "LitEnergy\208\162\209\128\209\131\208\177\208\186\208\176",
+			isMultiPart = true
+		},
+		{
+			id = "LitEnergyCap",
+			name = "Кепка Lit Energy",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "LitEnergyCap",
+			isMultiPart = true
+		},
+		{
+			id = "TungTungSahur_Backpack",
+			name = "Tung Tung Sahur Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "RafSimons",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "TungTungSahur",
+			isMultiPart = true
+		},
+		{
+			id = "Lacagole",
+			name = "La Cagole Bag",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "KUSTOM2",
+			isMultiPart = true
+		},
+		{
+			id = "PitBike",
+			name = "Питбайк Синий",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "BAPE",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Bike",
+			isMultiPart = true
+		},
+		{
+			id = "rickred",
+			assetId = 109916734150923,
+			name = "Rick Red",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 100000,
+			brand = "RickOwens",
+			spawnChance = 0
+		},
+		{
+			id = "Femboy",
+			assetId = 13958665356,
+			name = "Ушки Давида",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "RickOwens",
+			spawnChance = 0
+		},
+		{
+			id = "\208\168\208\176\208\191\208\186\208\176 Louis Vuitton",
+			assetId = 84320297245519,
+			name = "Шапка Louis Vuitton",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "Lv",
+			spawnChance = 0
+		},
+		{
+			id = "\209\133\209\128\208\190\208\188 \208\186\208\181\208\191\208\186\208\176",
+			assetId = 88579371932450,
+			name = "Хром кепка",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "chrome",
+			spawnChance = 0
+		},
+		{
+			id = "\209\136\208\176\208\191\208\186\208\176 \208\176\209\128\209\133\208\184\208\178",
+			assetId = 117911531669734,
+			name = "Шапка архив",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "chrome",
+			spawnChance = 0
+		},
+		{
+			id = "\209\129\209\131\208\188\208\186\208\176 \209\129\208\176\209\133\209\131\209\128\208\176",
+			assetId = 135381083740305,
+			name = "Сумка сахура",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "sahur",
+			spawnChance = 0
+		},
+		{
+			id = "Crossbones",
+			assetId = 18658360394,
+			name = "Crossbones",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "crossbones",
+			spawnChance = 0
+		},
+		{
+			id = "\208\189\208\176\208\188\208\177\208\181\209\128 \208\186\208\181\208\191\208\186\208\176",
+			assetId = 122774828955897,
+			name = "намбер кепка",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "crossbones",
+			spawnChance = 0
+		},
+		{
+			id = "aliv mask",
+			assetId = 80515742217505,
+			name = "aliv mask",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "yeat",
+			spawnChance = 0
+		},
+		{
+			id = "\208\186\209\128\208\190\209\129 \209\129\209\131\208\188\208\186\208\176",
+			assetId = 121071724731890,
+			name = "крос сумка",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "y2k",
+			spawnChance = 0
+		},
+		{
+			id = "168mask",
+			assetId = 94121613114845,
+			name = "168mask",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 666,
+			brand = "y2k",
+			spawnChance = 0
+		},
+		{
+			id = "\208\147\209\131\209\135\208\184 \208\159\208\187\208\176\209\137",
+			assetId = 8853097484,
+			name = "Гучи Плащ",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 77777,
+			brand = "gucci",
+			spawnChance = 0
+		},
+		{
+			id = "\208\188\208\181\209\130\208\184 \209\128\209\142\208\186\208\183\208\176\208\186",
+			assetId = 120784693278602,
+			name = "мети рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 777,
+			brand = "gucci",
+			spawnChance = 0
+		},
+		{
+			id = "\209\136\208\176\209\128\209\132 \208\177\208\176\209\128\208\177\208\181\209\128\208\184",
+			assetId = 116804289671202,
+			name = "шарф барбери",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 4567,
+			brand = "gucci",
+			spawnChance = 0
+		},
+		{
+			id = "\209\133\208\181\209\128\208\188\208\181\209\129 \208\190\209\135\208\186\208\184",
+			assetId = 16170111438,
+			name = "Хермес очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 42347,
+			brand = "gucci",
+			spawnChance = 0
+		},
+		{
+			id = "\208\180\208\184\208\183\208\176\208\185\208\189\208\181\209\128 \208\190\209\135\208\186\208\184",
+			assetId = 105474147340741,
+			name = "дизайнер очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 423427,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\187\208\176\208\186\209\136\208\181\209\128\208\184 \209\129\209\131\208\188\208\186\208\176",
+			assetId = 81097280325860,
+			name = "лакшери сумка",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 423427,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\191\208\181\209\128\209\129\208\184\208\186 \208\176\209\128\209\130\208\181\208\188\208\176",
+			assetId = 223254372236950,
+			name = "персик артема",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "2093\208\188\208\176\209\129\208\186\208\176",
+			assetId = 87669926185132,
+			name = "2093маска",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 88888,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\188\208\176\209\129\208\186\208\176 \208\186\208\187\208\190\209\131\208\189\208\176",
+			assetId = 111614000518901,
+			name = "маска клоуна",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 88888,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\181\208\191\208\187 \208\189\208\176\209\131\209\136\208\189\208\184\208\186\208\184",
+			assetId = 15949935566,
+			name = "епл наушники",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 88888,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "happy tree \209\129\209\131\208\188\208\186\208\176",
+			assetId = 108594114657534,
+			name = "happy tree сумка",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 18888,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "super spike pink",
+			assetId = 114643917782484,
+			name = "super spike pink",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 188348,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "super spike black",
+			assetId = 92901971978862,
+			name = "super spike black",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 188348,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\187\208\176\208\186\209\136\208\181\209\128\208\184 \208\187\208\178",
+			assetId = 127873146197910,
+			name = "лакшери лв",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 1884348,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\148\208\184\208\183\208\176\208\185\208\189\208\181\209\128\209\129\208\186\208\184\208\181 \208\158\209\135\208\186\208\184",
+			assetId = 105474147340741,
+			name = "Дизайнерские Очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 1000000,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\179\209\128\209\131\208\191\208\176 \208\176\208\189\208\184\208\188\208\181 \209\130\209\143\208\189\208\190\208\186",
+			assetId = 101549592756759,
+			name = "група аниме тянок",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 10000,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "Rick V2",
+			assetId = 91052418543158,
+			name = "Rick V2",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 777777,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "\208\176\208\188\208\181\209\128\208\184\208\186\208\176\208\189\209\129\208\186\208\184\208\185 \209\128\209\142\208\186\208\183\208\176\208\186",
+			assetId = 72934411748474,
+			name = "американский рюкзак",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 6666,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "fake smile",
+			assetId = 89744113500556,
+			name = "fake smile",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 222,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "Silly Space Alien",
+			assetId = 71533693364633,
+			name = "Silly Space Alien",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "iii",
+			spawnChance = 0
+		},
+		{
+			id = "Babymilo_back",
+			name = "Baby Milo Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 185000,
+			brand = "BAPE",
+			spawnChance = 0.003,
+			sourceType = "Custom",
+			customModelName = "babymilo",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "BapeMask",
+			name = "Bape Маска",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 42000,
+			brand = "BAPE",
+			spawnChance = 0.15,
+			sourceType = "Custom",
+			customModelName = "BapeMask",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "Bape_TigerB",
+			name = "Рюкзак Bape Panda Красный",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 28000,
+			brand = "BAPE",
+			spawnChance = 1.8,
+			sourceType = "Custom",
+			customModelName = "BapePandaR",
+			isMultiPart = true,
+			economyProfile = "trap"
+		},
+		{
+			id = "Bape_PandaR",
+			name = "Рюкзак Bape Tiger Фиолетовый",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 31000,
+			brand = "BAPE",
+			spawnChance = 4.5,
+			sourceType = "Custom",
+			customModelName = "BapeTigerP",
+			isMultiPart = true,
+			economyProfile = "normal"
+		},
+		{
+			id = "Bape_TigerP",
+			name = "Рюкзак Bape Tiger Фиолетовый v2",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 31000,
+			brand = "BAPE",
+			spawnChance = 4.5,
+			sourceType = "Custom",
+			customModelName = "BapeTigerP",
+			isMultiPart = true,
+			economyProfile = "normal"
+		},
+		{
+			id = "bape_Camo",
+			assetId = 115389802684898,
+			name = "Bape Рюкзак Camo",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 52000,
+			brand = "BAPE",
+			spawnChance = 0.4,
+			economyProfile = "risky"
+		},
+		{
+			id = "bape_panda",
+			assetId = 89846079310975,
+			name = "Bape Panda Shark Шапка",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 78000,
+			brand = "BAPE",
+			spawnChance = 0.07,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "bape_backpack_camo",
+			assetId = 97966912305719,
+			name = "Blue BAPE Tiger Backpack",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 44000,
+			brand = "BAPE",
+			spawnChance = 1.2,
+			economyProfile = "normal"
+		},
+		{
+			id = "bape_backpack_shark",
+			assetId = 101486965390763,
+			name = "Red BAPE Tiger Backpack",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 58000,
+			brand = "BAPE",
+			spawnChance = 0.6,
+			economyProfile = "risky"
+		},
+		{
+			id = "bape_sta_white",
+			bundleId = 152542098678507,
+			name = "Bape Star White",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 35000,
+			brand = "BAPE",
+			spawnChance = 2.5,
+			economyProfile = "safe",
+			assetIds = { 133852528325273, 75141698013911 }
+		}
+	}
+}
+v_u_1.Bape = v2
+v_u_1.BAPE = v_u_1.Bape
+
+v_u_1.Maksakov = {
+	Hats = {
+		{
+			id = "Maksakov_Ghost_Hat",
+			assetId = 14523189142,
+			name = "Maksakov Ghost",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 210000,
+			brand = "Maksakov",
+			spawnChance = 0.005,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "Red_Ghost_Hat",
+			assetId = 14615310668,
+			name = "Red Maksakov Ghost",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 92000,
+			brand = "Maksakov",
+			spawnChance = 0.08,
+			economyProfile = "risky"
+		},
+		{
+			id = "Pink_Ghost_Hat",
+			assetId = 14615304098,
+			name = "Pink Maksakov Ghost",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 88000,
+			brand = "Maksakov",
+			spawnChance = 0.08,
+			economyProfile = "normal"
+		},
+		{
+			id = "White_Ghost_Hat",
+			assetId = 14615307025,
+			name = "White Maksakov Ghost",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 85000,
+			brand = "Maksakov",
+			spawnChance = 0.1,
+			economyProfile = "risky"
+		},
+		{
+			id = "RickРюкзак",
+			assetId = 109321081946730,
+			name = "Rick Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 1488,
+			brand = "RickOwens",
+			spawnChance = 0
+		}
+	}
+}
+
+v_u_1.MCM = {
+	Bags = {
+		{
+			id = "MCM_RED",
+			assetId = 130822108945941,
+			name = "MCM Рюкзак Красный",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 34000,
+			brand = "MCM",
+			spawnChance = 0.4,
+			economyProfile = "trap"
+		},
+		{
+			id = "MCM_Beige",
+			assetId = 113057369240600,
+			name = "MCM Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 38000,
+			brand = "MCM",
+			spawnChance = 0.5,
+			economyProfile = "safe"
+		},
+		{
+			id = "MCM_White",
+			assetId = 122914640223931,
+			name = "MCM Рюкзак Белый",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 41000,
+			brand = "MCM",
+			spawnChance = 0.6,
+			economyProfile = "safe"
+		},
+		{
+			id = "MCM_SprayGround",
+			assetId = 116403395006931,
+			name = "MCM Рюкзак X SprayGround",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 72000,
+			brand = "MCM",
+			spawnChance = 0.04,
+			economyProfile = "trap"
+		}
+	}
+}
+
+v_u_1.Alyx = {
+	Bags = {
+		{
+			id = "Alyx_BackpackRed",
+			name = "1017 Alyx 9SM Mini Tank Красный Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 165000,
+			brand = "Alyx",
+			spawnChance = 0.003,
+			sourceType = "Custom",
+			customModelName = "AlRed",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "Alyx_Backpack",
+			name = "1017 Alyx 9SM Mini Tank Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 48000,
+			brand = "Alyx",
+			spawnChance = 0.7,
+			sourceType = "Custom",
+			customModelName = "Alyx",
+			isMultiPart = true,
+			economyProfile = "normal"
+		}
+	}
+}
+
+local v3 = {
+	Hats = {
+		{
+			id = "WZavoz",
+			name = "Blumarine Очки Классик",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 125000,
+			brand = "Gutta",
+			spawnChance = 0.007,
+			sourceType = "Custom",
+			customModelName = "Blumarine",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "GucciMask",
+			name = "Gucci Маска",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 56000,
+			brand = "Gucci",
+			spawnChance = 0.09,
+			sourceType = "Custom",
+			customModelName = "GucciMask",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "Gucci_BagGlobal",
+			name = "Gucci Сумка Global",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 38000,
+			brand = "Gucci",
+			spawnChance = 0.3,
+			sourceType = "Custom",
+			customModelName = "Guccibag",
+			isMultiPart = true,
+			economyProfile = "trap"
+		},
+		{
+			id = "Gucci_Angry_Glasses",
+			name = "Очки Gucci",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 480000,
+			brand = "Gucci",
+			spawnChance = 0.001,
+			sourceType = "Custom",
+			customModelName = "Gucci",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "gucci_goggles",
+			assetId = 76486673718873,
+			name = "Gucci Goggles",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 68000,
+			brand = "Gucci",
+			spawnChance = 0.3,
+			economyProfile = "risky"
+		},
+		{
+			id = "GucciFlashTrek1",
+			name = "Gucci Flashtrek Черные",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 125000,
+			brand = "Gutta",
+			spawnChance = 0.02,
+			sourceType = "Custom",
+			customModelName = "Gucci1",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "gucci_backpack_gg",
+			assetId = 16344213019,
+			name = "Gucci Ophidia GG Backpack",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 340000,
+			brand = "Gucci",
+			spawnChance = 0.015,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "Gucci_Symka",
+			name = "Gucci Сумка",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 72000,
+			brand = "Gucci",
+			spawnChance = 0.4,
+			sourceType = "Custom",
+			customModelName = "Gucci_Front",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "gucci_hat_box",
+			assetId = 16301624126,
+			name = "Gucci Savoy Small Hat Box",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 155000,
+			brand = "Gucci",
+			spawnChance = 0.04,
+			economyProfile = "risky"
+		},
+		{
+			id = "gucci_dufflebag",
+			assetId = 115400611080426,
+			name = "Balenciaga x Gucci Duffle",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 220000,
+			brand = "Gucci",
+			spawnChance = 0.008,
+			economyProfile = "trap"
+		},
+		{
+			id = "gucci_dionysus_bee",
+			assetId = 6803402872,
+			name = "Gucci Dionysus Bag with Bee",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 195000,
+			brand = "Gucci",
+			spawnChance = 0.04,
+			economyProfile = "risky"
+		},
+		{
+			id = "gucci_BagDuffel_Black",
+			assetId = 106839053930915,
+			name = "Gucci Duffel Bag Black",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 62000,
+			brand = "Gucci",
+			spawnChance = 0.8,
+			economyProfile = "trap"
+		},
+		{
+			id = "gucci_BagDuffel_Beige",
+			assetId = 104339539451912,
+			name = "Gucci Duffel Bag Beige",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 65000,
+			brand = "Gucci",
+			spawnChance = 0.8,
+			economyProfile = "risky"
+		},
+		{
+			id = "gucci_sunglasses",
+			assetId = 6803412842,
+			name = "Gucci Diamond-Framed Sunglasses",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 95000,
+			brand = "Gucci",
+			spawnChance = 0.15,
+			economyProfile = "normal"
+		},
+		{
+			id = "gucci_shoes_1",
+			bundleId = 64430055087507,
+			name = "Gucci Track Sneakers",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 82000,
+			brand = "Gucci",
+			spawnChance = 0.12,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		}
+	}
+}
+v_u_1.Gucci = v3
+v_u_1.GUCCI = v_u_1.Gucci
+
+v_u_1.CPCompany = {
+	Hats = {
+		{
+			id = "cp_goggle_beanie_Blue",
+			assetId = 71040675246222,
+			name = "CP Company Goggle Beanie Light Blue",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 35000,
+			brand = "CPCompany",
+			spawnChance = 0.5,
+			economyProfile = "risky"
+		},
+		{
+			id = "cp_goggle_beanie_Sail",
+			assetId = 96236164474655,
+			name = "CP Company Goggle Beanie Sail",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 38000,
+			brand = "CPCompany",
+			spawnChance = 0.3,
+			economyProfile = "risky"
+		},
+		{
+			id = "cp_goggle_beanie_Red",
+			assetId = 84903025841942,
+			name = "CP Company Goggle Beanie Red",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 42000,
+			brand = "CPCompany",
+			spawnChance = 0.15,
+			economyProfile = "trap"
+		},
+		{
+			id = "cp_goggle_beanie_Pink",
+			assetId = 109191017280869,
+			name = "CP Company Goggle Beanie Pink",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 45000,
+			brand = "CPCompany",
+			spawnChance = 0.08,
+			economyProfile = "risky"
+		}
+	}
+}
+v_u_1["CP COMPANY"] = v_u_1.CPCompany
+
+local v4 = {
+	Hats = {
+		{
+			id = "Balenciaga_Alien_Backpack",
+			assetId = 96068891445307,
+			name = "Balenciaga Alien Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 52000,
+			brand = "Balenciaga",
+			spawnChance = 0.6,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Gamer_Cap",
+			assetId = 91603290514384,
+			name = "Balenciaga Gamer Distressed Cap",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 45000,
+			brand = "Balenciaga",
+			spawnChance = 0.8,
+			economyProfile = "normal"
+		},
+		{
+			id = "Balenciaga_White_Ebay",
+			assetId = 111982024415210,
+			name = "Ebay X Balenciaga Trucker",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 58000,
+			brand = "Balenciaga",
+			spawnChance = 0.2,
+			economyProfile = "trap"
+		},
+		{
+			id = "Balenciaga_Black_Distressed",
+			assetId = 18147597296,
+			name = "Balenciaga Sports Icon Distressed Cap",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 72000,
+			brand = "Balenciaga",
+			spawnChance = 0.07,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Blue_Chrome",
+			assetId = 117973635335653,
+			name = "Balenciaga x Chrome Cotton Blue",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 55000,
+			brand = "Balenciaga",
+			spawnChance = 0.3,
+			economyProfile = "normal"
+		},
+		{
+			id = "Balenciaga_Yellow_Chrome",
+			assetId = 127277375292070,
+			name = "Balenciaga x Chrome Cotton Yellow",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 58000,
+			brand = "Balenciaga",
+			spawnChance = 0.25,
+			economyProfile = "normal"
+		},
+		{
+			id = "Balenciaga_White_Chrome",
+			assetId = 85692687437028,
+			name = "Balenciaga x Chrome Cotton White",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 62000,
+			brand = "Balenciaga",
+			spawnChance = 0.15,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Distressed_CapWhite",
+			assetId = 89723156077371,
+			name = "Balenciaga Distressed White Cap",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 48000,
+			brand = "Balenciaga",
+			spawnChance = 0.5,
+			economyProfile = "normal"
+		},
+		{
+			id = "mask13",
+			assetId = 74642889794363,
+			name = "mask13",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 2000,
+			brand = "13",
+			spawnChance = 0
+		},
+		{
+			id = "LvSki",
+			assetId = 123556664462463,
+			name = "LvSki",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 2000,
+			brand = "Lv",
+			spawnChance = 0
+		}
+	},
+	Bags = {
+		{
+			id = "Balenciaga_BackPack",
+			assetId = 104126944758670,
+			name = "Balenciaga Blue Explorer",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 78000,
+			brand = "Balenciaga",
+			spawnChance = 0.5,
+			economyProfile = "normal"
+		},
+		{
+			id = "Balenciaga_Graffiti_BagWhite",
+			assetId = 119024772298896,
+			name = "Balenciaga Graffiti City White",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 115000,
+			brand = "Balenciaga",
+			spawnChance = 0.06,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Graffiti_Bag",
+			assetId = 71591468298793,
+			name = "Balenciaga Graffiti City Black",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 118000,
+			brand = "Balenciaga",
+			spawnChance = 0.05,
+			economyProfile = "trap"
+		},
+		{
+			id = "Balenciaga_under_backpack",
+			assetId = 99189491919957,
+			name = "Balenciaga X Under Armour Piercing",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 95000,
+			brand = "Balenciaga",
+			spawnChance = 0.09,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Under_Bag",
+			assetId = 81550191875286,
+			name = "Balenciaga X Under Armour Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 55000,
+			brand = "Balenciaga",
+			spawnChance = 0.8,
+			economyProfile = "normal"
+		},
+		{
+			id = "Balenciaga_Patchwork_Bag",
+			assetId = 106641690712546,
+			name = "Balenciaga Patchwork Bag",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 82000,
+			brand = "Balenciaga",
+			spawnChance = 0.3,
+			economyProfile = "normal"
+		},
+		{
+			id = "Balenciaga_Garment_Bag2",
+			assetId = 99692493214274,
+			name = "Balenciaga Garment Large Tote",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 135000,
+			brand = "Balenciaga",
+			spawnChance = 0.02,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Black_Duffel",
+			assetId = 134357315882448,
+			name = "Balenciaga Black Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 420000,
+			brand = "Balenciaga",
+			spawnChance = 0.003,
+			economyProfile = "trap"
+		},
+		{
+			id = "Balenciaga_White_Duffel",
+			assetId = 119249567021092,
+			name = "Balenciaga White Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 390000,
+			brand = "Balenciaga",
+			spawnChance = 0.004,
+			economyProfile = "jackpot"
+		}
+	},
+	Face = {
+		{
+			id = "Balenciaga_Sunglasses_Reverse",
+			assetId = 129539513019418,
+			name = "Balenciaga Reverse Xpander Sunglasses",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 160000,
+			brand = "Balenciaga",
+			spawnChance = 0.02,
+			economyProfile = "risky"
+		},
+		{
+			id = "Balenciaga_Butterfly_Shades",
+			assetId = 129758048256121,
+			name = "Balenciaga Butterfly Shades",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 195000,
+			brand = "Balenciaga",
+			spawnChance = 0.007,
+			economyProfile = "trap"
+		},
+		{
+			id = "Balenciaga_Spike_Shades",
+			assetId = 94671579377101,
+			name = "Balenciaga Black Spike Eyewear",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 280000,
+			brand = "Balenciaga",
+			spawnChance = 0.002,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "Balenciaga_Spike_Red",
+			assetId = 92884235090318,
+			name = "Balenciaga Red Spike Eyewear",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 185000,
+			brand = "Balenciaga",
+			spawnChance = 0.01,
+			economyProfile = "risky"
+		}
+	},
+	Shoes = {
+		{
+			id = "balenciaga_trackred",
+			bundleId = 50131935418079,
+			name = "Balenciaga Track Красные",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 145000,
+			brand = "Balenciaga",
+			spawnChance = 0.004,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_trackfaded",
+			bundleId = 27960117931574,
+			name = "Balenciaga Track Фейд Черные",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 138000,
+			brand = "Balenciaga",
+			spawnChance = 0.005,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_runnerblack",
+			bundleId = 176403329972980,
+			name = "Balenciaga Runner Черные",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 155000,
+			brand = "Balenciaga",
+			spawnChance = 0.003,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_track2",
+			bundleId = 160172088032809,
+			name = "Balenciaga Track 2",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 68000,
+			brand = "Balenciaga",
+			spawnChance = 0.04,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_orange",
+			bundleId = 211821360845855,
+			name = "Balenciaga Track",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 195000,
+			brand = "Balenciaga",
+			spawnChance = 0.001,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_runner1",
+			bundleId = 42172033285726,
+			name = "Balenciaga Runner Черно-Белые",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 175000,
+			brand = "Balenciaga",
+			spawnChance = 0.001,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_trackwhite",
+			bundleId = 208447904507481,
+			name = "Balenciaga Track Белые",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 42000,
+			brand = "Balenciaga",
+			spawnChance = 1.2,
+			economyProfile = "normal",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_trackburgery",
+			bundleId = 48234444557514,
+			name = "Balenciaga Track Burgery",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 110000,
+			brand = "Balenciaga",
+			spawnChance = 0.008,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "balenciaga_track",
+			bundleId = 64430055087507,
+			name = "Balenciaga Track Черные",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 55000,
+			brand = "Balenciaga",
+			spawnChance = 0.9,
+			economyProfile = "normal",
+			assetIds = { 133852528325273, 75141698013911 }
+		}
+	}
+}
+v_u_1.Balenciaga = v4
+v_u_1.BALENCIAGA = v_u_1.Balenciaga
+
+v_u_1.ChromeHearts = {
+	Hats = {
+		{
+			id = "ChromeHearts_Crosses_Beanie",
+			assetId = 132695427826329,
+			name = "Chrome Hearts Crosses Beanie",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 52000,
+			brand = "ChromeHearts",
+			spawnChance = 0.3,
+			economyProfile = "normal"
+		},
+		{
+			id = "ChromeHearts_PinkBeanie",
+			assetId = 125854200114380,
+			name = "Chrome Hearts Pink Beanie",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 28000,
+			brand = "ChromeHearts",
+			spawnChance = 0.6,
+			economyProfile = "risky"
+		},
+		{
+			id = "ChromeHearts_PurpleBeanie",
+			assetId = 135279723356196,
+			name = "Chrome Hearts Purple Beanie",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 32000,
+			brand = "ChromeHearts",
+			spawnChance = 0.4,
+			economyProfile = "risky"
+		}
+	},
+	Bags = {
+		{
+			id = "ChromeHearts_DuffelBlack",
+			assetId = 86427482003284,
+			name = "Chrome Hearts Black Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 48000,
+			brand = "ChromeHearts",
+			spawnChance = 1.5,
+			economyProfile = "trap"
+		},
+		{
+			id = "ChromeHearts_DuffelBrown",
+			assetId = 108037854904912,
+			name = "Chrome Hearts Brown Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 52000,
+			brand = "ChromeHearts",
+			spawnChance = 1.2,
+			economyProfile = "trap"
+		},
+		{
+			id = "ChromeHearts_DuffelLightBrown",
+			assetId = 109987483758270,
+			name = "Chrome Hearts Light Brown Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 50000,
+			brand = "ChromeHearts",
+			spawnChance = 1.3,
+			economyProfile = "trap"
+		},
+		{
+			id = "ChromeHearts_DuffelWhite",
+			assetId = 75336760704474,
+			name = "Chrome Hearts White Duffel",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 55000,
+			brand = "ChromeHearts",
+			spawnChance = 1,
+			economyProfile = "risky"
+		},
+		{
+			id = "ChromeHearts_Duffle_Bag_Back",
+			assetId = 125357035013809,
+			name = "Chrome Hearts Duffle Bag",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 88000,
+			brand = "ChromeHearts",
+			spawnChance = 0.3,
+			economyProfile = "risky"
+		},
+		{
+			id = "ChromeHearts_Zebra_Leather",
+			assetId = 87874224966717,
+			name = "Chrome Hearts Zebra Leather Bag",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 145000,
+			brand = "ChromeHearts",
+			spawnChance = 0.01,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "ChromeHearts_Blue_Leather",
+			assetId = 79007717208299,
+			name = "Chrome Hearts Blue Leather Bag",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 42000,
+			brand = "ChromeHearts",
+			spawnChance = 2,
+			economyProfile = "normal"
+		},
+		{
+			id = "ChromeHearts_StreetDirty_Leather",
+			assetId = 107066313514551,
+			name = "Chrome Hearts Street Dirty Leather",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 58000,
+			brand = "ChromeHearts",
+			spawnChance = 0.7,
+			economyProfile = "normal"
+		},
+		{
+			id = "ChromeHearts_Pink_Leather",
+			assetId = 119663572151266,
+			name = "Chrome Hearts Pink Leather Bag",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 46000,
+			brand = "ChromeHearts",
+			spawnChance = 1.5,
+			economyProfile = "trap"
+		},
+		{
+			id = "ChromeHearts_Green_Leather",
+			assetId = 77140992757878,
+			name = "Chrome Hearts Green Leather Bag",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 44000,
+			brand = "ChromeHearts",
+			spawnChance = 1.8,
+			economyProfile = "normal"
+		},
+		{
+			id = "ChromeHearts_Purple_Leather",
+			assetId = 109014454978498,
+			name = "Chrome Hearts Purple Leather Bag",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 48000,
+			brand = "ChromeHearts",
+			spawnChance = 1.2,
+			economyProfile = "risky"
+		},
+		{
+			id = "ChromeHearts_Red_Leather",
+			assetId = 103017839244605,
+			name = "Chrome Hearts Red Leather Bag",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 44000,
+			brand = "ChromeHearts",
+			spawnChance = 1.8,
+			economyProfile = "normal"
+		},
+		{
+			id = "ChromeHearts_CamoGrunge_Leather",
+			assetId = 98026639580728,
+			name = "Chrome Hearts Camo Grunge Leather",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 92000,
+			brand = "ChromeHearts",
+			spawnChance = 0.08,
+			economyProfile = "risky"
+		},
+		{
+			id = "ChromeHearts_YellowBackPack",
+			assetId = 139197122817858,
+			name = "Chrome Hearts Yellow Backpack",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 35000,
+			brand = "ChromeHearts",
+			spawnChance = 2.5,
+			economyProfile = "trap"
+		}
+	},
+	Face = {
+		{
+			id = "ChromeHearts_GlassesBlack",
+			assetId = 120186577797659,
+			name = "Chrome Hearts Black Glasses",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 62000,
+			brand = "ChromeHearts",
+			spawnChance = 0.4,
+			economyProfile = "normal"
+		},
+		{
+			id = "ChromeHearts_GlassesWhite",
+			assetId = 109761541704044,
+			name = "Chrome Hearts White Glasses",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 58000,
+			brand = "ChromeHearts",
+			spawnChance = 0.5,
+			economyProfile = "normal"
+		}
+	},
+	Neck = {
+		{
+			id = "ChromeHearts_Cross_Necklace",
+			assetId = 87280317399320,
+			name = "Chrome Hearts Cross Necklace Silver",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 135000,
+			brand = "ChromeHearts",
+			spawnChance = 0.02,
+			economyProfile = "risky"
+		},
+		{
+			id = "ChromeHearts_Cross_Stacked",
+			assetId = 96209722328474,
+			name = "Chrome Hearts Cross Chain Stacked",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 280000,
+			brand = "ChromeHearts",
+			spawnChance = 0.003,
+			economyProfile = "jackpot"
+		}
+	},
+	Shoulder = {
+		{
+			id = "ChromeHearts_Silver_Bracelet",
+			assetId = 108747673267074,
+			name = "Chrome Hearts Silver Bracelet",
+			accessoryType = "Shoulder",
+			rarity = "Legendary",
+			fairPrice = 78000,
+			brand = "ChromeHearts",
+			spawnChance = 0.15,
+			economyProfile = "normal"
+		}
+	}
+}
+v_u_1["CHROME HEARTS"] = v_u_1.ChromeHearts
+
+v_u_1.Moncler = {
+	Hats = {
+		{
+			id = "moncler_beanie_BlackandBlue",
+			assetId = 137358532054126,
+			name = "Moncler Beanie Black and Blue",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 48000,
+			brand = "Moncler",
+			spawnChance = 0.15,
+			economyProfile = "risky"
+		},
+		{
+			id = "moncler_beanie_Black",
+			assetId = 98077128019618,
+			name = "Moncler Logo Beanie Black",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 62000,
+			brand = "Moncler",
+			spawnChance = 0.04,
+			economyProfile = "trap"
+		}
+	}
+}
+v_u_1.MONCLER = v_u_1.Moncler
+
+local v5 = {
+	Hats = {
+		{
+			id = "lv_bucket_monogram",
+			assetId = 6847974055,
+			name = "LV Monogram Bucket Hat",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 92000,
+			brand = "LouisVuitton",
+			spawnChance = 0.08,
+			economyProfile = "risky"
+		},
+		{
+			id = "lv_cap_monogram",
+			assetId = 6847979005,
+			name = "LV Monogram Cap",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 68000,
+			brand = "LouisVuitton",
+			spawnChance = 0.2,
+			economyProfile = "normal"
+		}
+	},
+	Bags = {
+		{
+			id = "lv_keepall_55",
+			assetId = 7495514829,
+			name = "LV Keepall 55 Monogram",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 350000,
+			brand = "LouisVuitton",
+			spawnChance = 0.002,
+			economyProfile = "trap"
+		},
+		{
+			id = "lv_backpack_christopher",
+			assetId = 6847991145,
+			name = "LV Christopher Backpack",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 520000,
+			brand = "LouisVuitton",
+			spawnChance = 0.001,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "lv_messenger_district",
+			assetId = 6847995221,
+			name = "LV District Messenger",
+			accessoryType = "Shoulder",
+			rarity = "Legendary",
+			fairPrice = 185000,
+			brand = "LouisVuitton",
+			spawnChance = 0.015,
+			economyProfile = "risky"
+		},
+		{
+			id = "lv_bumbag",
+			assetId = 7495518344,
+			name = "LV Bumbag Monogram",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 145000,
+			brand = "LouisVuitton",
+			spawnChance = 0.03,
+			economyProfile = "trap"
+		}
+	},
+	Face = {
+		{
+			id = "BoingLV",
+			name = "LV Boing 747",
+			accessoryType = "LeftGrip",
+			rarity = "Legendary",
+			fairPrice = 5500000,
+			brand = "LouisVuitton",
+			spawnChance = 0.001,
+			sourceType = "Custom",
+			customModelName = "LvAir",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		}
+	},
+	Shoes = {
+		{
+			id = "lv_track_sneakers",
+			bundleId = 64430055087507,
+			name = "LV Track Sneakers",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 165000,
+			brand = "LouisVuitton",
+			spawnChance = 0.01,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		}
+	}
+}
+v_u_1.LouisVuitton = v5
+
+local v6 = {
+	Hats = {
+		{
+			id = "Erd_Classic_Cap",
+			assetId = 90893801653709,
+			name = "ERD Классическая Кепка",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 78000,
+			brand = "ERD",
+			spawnChance = 0.15,
+			economyProfile = "normal"
+		}
+	},
+	Bags = {
+		{
+			id = "erd_leather_backpack",
+			assetId = 7495514829,
+			name = "ERD Leather Backpack Black",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 195000,
+			brand = "ERD",
+			spawnChance = 0.01,
+			economyProfile = "trap"
+		},
+		{
+			id = "erd_crossbody_chain",
+			assetId = 6847991145,
+			name = "ERD Chain Crossbody",
+			accessoryType = "Shoulder",
+			rarity = "Legendary",
+			fairPrice = 145000,
+			brand = "ERD",
+			spawnChance = 0.03,
+			economyProfile = "risky"
+		},
+		{
+			id = "erd_waist_bag",
+			assetId = 6847995221,
+			name = "ERD Waist Bag Destroyed",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 110000,
+			brand = "ERD",
+			spawnChance = 0.06,
+			economyProfile = "risky"
+		}
+	},
+	Neck = {
+		{
+			id = "erd_cross_necklace",
+			assetId = 87280317399320,
+			name = "ERD Cross Chain Silver",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 175000,
+			brand = "ERD",
+			spawnChance = 0.008,
+			economyProfile = "trap"
+		}
+	},
+	Shoes = {
+		{
+			id = "erd_destroyed_boots",
+			bundleId = 64430055087507,
+			name = "ERD Destroyed Sneakers",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 210000,
+			brand = "ERD",
+			spawnChance = 0.005,
+			economyProfile = "trap",
+			assetIds = { 133852528325273, 75141698013911 }
+		}
+	}
+}
+v_u_1.ERD = v6
+
+v_u_1.Gutta = {
+	Hats = {
+		{
+			id = "Lit_EnergyBack1",
+			name = "Lit Energy Backpack",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Gutta",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "LITENERGY",
+			isMultiPart = true
+		},
+		{
+			id = "Tsum_CaseRAR",
+			name = "Tsum Collect X Swarovski",
+			accessoryType = "LeftGrip",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "Gutta",
+			spawnChance = 0,
+			sourceType = "Custom",
+			customModelName = "Tsum",
+			isMultiPart = true
+		},
+		{
+			id = "Gutta_Army",
+			name = "ARMY x BENZO TRUCKER HAT",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 95000,
+			brand = "Gutta",
+			spawnChance = 0.001,
+			sourceType = "Custom",
+			customModelName = "Army",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		}
+	}
+}
+
+v_u_1.RafSimons = {
+	Bags = {
+		{
+			id = "Rafsimons_Toit",
+			name = "Raf Simons Тоут",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 62000,
+			brand = "RafSimons",
+			spawnChance = 0.007,
+			sourceType = "Custom",
+			customModelName = "Тоут",
+			isMultiPart = true,
+			economyProfile = "trap"
+		},
+		{
+			id = "raf_ozweego",
+			name = "Adidas x Raf Simons Ozweego 2 Chalk White",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 100000,
+			brand = "RafSimons",
+			spawnChance = 1,
+			sourceType = "Custom",
+			customModelName = "Ozweego2",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "raf_ozweego2green",
+			name = "Adidas Raf Simons Ozweego 2 Темно-Зеленые",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 110000,
+			brand = "RafSimons",
+			spawnChance = 0.02,
+			sourceType = "Custom",
+			customModelName = "OzweegoGreen1",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "raf_anteired",
+			name = "Raf Simons Antei Красные",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 120000,
+			brand = "RafSimons",
+			spawnChance = 0.06,
+			sourceType = "Custom",
+			customModelName = "AnteiRed",
+			isMultiPart = true,
+			economyProfile = "risky"
+		},
+		{
+			id = "raf_backwaist_eastpak",
+			name = "Raf Simons x Eastpak Backpack",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 115000,
+			brand = "RafSimons",
+			spawnChance = 0.004,
+			sourceType = "Custom",
+			customModelName = "eatpak",
+			isMultiPart = true,
+			economyProfile = "risky"
+		}
+	}
+}
+
+local v7 = {
+	Hats = {
+		{
+			id = "OffwhiteRight",
+			bundleId = 5955380828354,
+			name = "Off White Out Of Office",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 45000,
+			brand = "OffWhite",
+			spawnChance = 0.3,
+			economyProfile = "normal",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "OffWhite_Back",
+			assetId = 133988893738584,
+			name = "OffWhite Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 88000,
+			brand = "OffWhite",
+			spawnChance = 0.015,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "OffWhite_Symka",
+			assetId = 5460373518,
+			name = "OffWhite Сумка",
+			accessoryType = "Front",
+			rarity = "Legendary",
+			fairPrice = 38000,
+			brand = "OffWhite",
+			spawnChance = 0.5,
+			economyProfile = "normal"
+		}
+	}
+}
+v_u_1.OffWhite = v7
+v_u_1["OFF-WHITE"] = v_u_1.OffWhite
+
+v_u_1.NeNet = {
+	Hats = {
+		{
+			id = "NeNet_Barset",
+			assetId = 89818592943048,
+			name = "NeNet Берет",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 42000,
+			brand = "NeNet",
+			spawnChance = 0.09,
+			economyProfile = "risky"
+		},
+		{
+			id = "NeNet_Backpack",
+			assetId = 118231617266072,
+			name = "Рюкзак NeNet",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 320000,
+			brand = "NeNet",
+			spawnChance = 0.003,
+			economyProfile = "jackpot"
+		}
+	}
+}
+
+local v8 = {
+	Hats = {
+		{
+			id = "AmiriDiamond",
+			bundleId = 211766009540306,
+			name = "Amiri Diamond",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 48000,
+			brand = "Amiri",
+			spawnChance = 0.3,
+			economyProfile = "normal",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "AmiriSkeleton",
+			bundleId = 248692967707582,
+			name = "Amiri Skeleton",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 55000,
+			brand = "Amiri",
+			spawnChance = 0.15,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "AmiriMA1",
+			bundleId = 111980812411179,
+			name = "Amiri MA-1 Голубые",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 42000,
+			brand = "Amiri",
+			spawnChance = 0.4,
+			economyProfile = "trap",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "amiri_Sepochka",
+			assetId = 120296789227673,
+			name = "Amiri Бриллиантовая Цепочка",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 68000,
+			brand = "Amiri",
+			spawnChance = 0.08,
+			economyProfile = "risky"
+		}
+	}
+}
+v_u_1.Amiri = v8
+
+v_u_1.PalmAngels = {
+	Hats = {
+		{
+			id = "GalleryDept_CapPaint",
+			name = "Gallery Dept Кепка Paint",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 72000,
+			brand = "GalleryDept",
+			spawnChance = 0.009,
+			sourceType = "Custom",
+			customModelName = "Paint",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		}
+	}
+}
+
+v_u_1.Goyard = {
+	Hats = {
+		{
+			id = "GoyardBackpackGraffiti",
+			assetId = 100351258840519,
+			name = "Goyard Graffiti Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 32000,
+			brand = "GalleryDept",
+			spawnChance = 0.5,
+			economyProfile = "risky"
+		},
+		{
+			id = "GoyardYellowBackpack",
+			assetId = 78438678589037,
+			name = "Goyard Желтый Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 28000,
+			brand = "GalleryDept",
+			spawnChance = 0.8,
+			economyProfile = "normal"
+		},
+		{
+			id = "GoyardBackpack",
+			assetId = 135387131844952,
+			name = "Goyard Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 25000,
+			brand = "GalleryDept",
+			spawnChance = 1,
+			economyProfile = "normal"
+		},
+		{
+			id = "GoyardWhiteBackpack",
+			assetId = 117843324273238,
+			name = "Goyard Белый Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 22000,
+			brand = "GalleryDept",
+			spawnChance = 1.2,
+			economyProfile = "normal"
+		}
+	}
+}
+
+v_u_1.GalleryDept = {
+	Hats = {
+		{
+			id = "VR",
+			assetId = 16650385017,
+			name = "VR Очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 0,
+			brand = "PalmAngels",
+			spawnChance = 0
+		},
+		{
+			id = "RayBan",
+			assetId = 140525091977150,
+			name = "RayBan Meta Smart Очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 185000,
+			brand = "PalmAngels",
+			spawnChance = 0.001,
+			economyProfile = "jackpot"
+		}
+	}
+}
+
+v_u_1.Burberry = {
+	Hats = {
+		{
+			id = "Shades_Burberry",
+			name = "Burberry Очки",
+			accessoryType = "Face",
+			rarity = "Legendary",
+			fairPrice = 35000,
+			brand = "Burberry",
+			spawnChance = 0.3,
+			sourceType = "Custom",
+			customModelName = "BurberryG",
+			isMultiPart = true,
+			economyProfile = "normal"
+		}
+	}
+}
+
+v_u_1.GeorgeGina = {
+	Hats = {
+		{
+			id = "GeorgeGinaBag",
+			name = "Сумка George Gina & Lucy",
+			accessoryType = "LeftGrid",
+			rarity = "Legendary",
+			fairPrice = 250000,
+			brand = "GeorgeGina",
+			spawnChance = 0.001,
+			sourceType = "Custom",
+			customModelName = "GeorgeGina1",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		}
+	}
+}
+
+local v9 = {
+	Hats = {
+		{
+			id = "Diorb23White",
+			bundleId = 224076339726716,
+			name = "Dior B23 Белые",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 165000,
+			brand = "Dior",
+			spawnChance = 0.003,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "Diorb22Black",
+			bundleId = 233053751395436,
+			name = "Dior B22 Черные",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 155000,
+			brand = "Dior",
+			spawnChance = 0.004,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "DiorSkimask",
+			assetId = 100702892962731,
+			name = "Dior Лыжная Маска",
+			accessoryType = "Hat",
+			rarity = "Legendary",
+			fairPrice = 78000,
+			brand = "Dior",
+			spawnChance = 0.08,
+			economyProfile = "risky"
+		},
+		{
+			id = "Diorbackpack",
+			assetId = 82508073931214,
+			name = "Dior Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 72000,
+			brand = "Dior",
+			spawnChance = 0.12,
+			economyProfile = "normal"
+		}
+	}
+}
+v_u_1.Dior = v9
+
+local v10 = {
+	Hats = {
+		{
+			id = "MaisonMargiela_Sharf",
+			assetId = 92420837177718,
+			name = "Maison Margiela Шарф Черный",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 68000,
+			brand = "MaisonMargiela",
+			spawnChance = 0.2,
+			economyProfile = "normal"
+		},
+		{
+			id = "MaisonMargiela_Bag",
+			name = "Maison Margiela Сумка Olivie",
+			accessoryType = "LeftGrid",
+			rarity = "Legendary",
+			fairPrice = 195000,
+			brand = "MaisonMargiela",
+			spawnChance = 0.001,
+			sourceType = "Custom",
+			customModelName = "Olivie",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "MaisonMargielaGa",
+			bundleId = 138418575600558,
+			name = "Maison Margiela Replica",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 98000,
+			brand = "MaisonMargiela",
+			spawnChance = 0.04,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "MaisonMargielaFuture",
+			bundleId = 134598044460203,
+			name = "Maison Margiela Future",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 185000,
+			brand = "MaisonMargiela",
+			spawnChance = 0.003,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "MaisonMargiela_Tote",
+			assetId = 95715426059863,
+			name = "Maison Margiela Тоут",
+			accessoryType = "Waist",
+			rarity = "Legendary",
+			fairPrice = 52000,
+			brand = "MaisonMargiela",
+			spawnChance = 0.5,
+			economyProfile = "trap"
+		}
+	}
+}
+v_u_1.MaisonMargiela = v10
+
+local v11 = {
+	Hats = {
+		{
+			id = "RickOwensBackpack",
+			assetId = 104467521699761,
+			name = "Rick Owens Drkshdw Рюкзак",
+			accessoryType = "Back",
+			rarity = "Legendary",
+			fairPrice = 72000,
+			brand = "RickOwens",
+			spawnChance = 0.5,
+			economyProfile = "normal"
+		},
+		{
+			id = "RickOwensTractor",
+			bundleId = 57538516553156,
+			name = "Rick Owens Tractor",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 210000,
+			brand = "RickOwens",
+			spawnChance = 0.002,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "RickOwensShepochka",
+			name = "Rick Owens Цепочка",
+			accessoryType = "Neck",
+			rarity = "Legendary",
+			fairPrice = 280000,
+			brand = "MaisonMargiela",
+			spawnChance = 0.001,
+			sourceType = "Custom",
+			customModelName = "Rick1",
+			isMultiPart = true,
+			economyProfile = "jackpot"
+		},
+		{
+			id = "RickOwensBigBoots",
+			bundleId = 21268438962151,
+			name = "Rick Owens Большие Ботинки",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 380000,
+			brand = "RickOwens",
+			spawnChance = 0.001,
+			economyProfile = "jackpot",
+			assetIds = { 133852528325273, 75141698013911 }
+		},
+		{
+			id = "RickOwensGeoBasket",
+			bundleId = 47263438724171,
+			name = "Rick Owens GeoBasket",
+			accessoryType = "Shoes",
+			rarity = "Legendary",
+			fairPrice = 125000,
+			brand = "RickOwens",
+			spawnChance = 0.02,
+			economyProfile = "risky",
+			assetIds = { 133852528325273, 75141698013911 }
+		}
+	}
+}
+v_u_1.RickOwens = v11
+
+function v_u_1.getAllForBrand(p12)
+	local v13 = v_u_1[p12]
+	if not v13 then
+		return {}
+	end
+	local v14 = {}
+	for _, v15 in pairs(v13) do
+		if type(v15) == "table" and (v15[1] and v15[1].id) then
+			for _, v16 in ipairs(v15) do
+				table.insert(v14, v16)
+			end
+		end
+	end
+	return v14
+end
+
+function v_u_1.getByType(p17, p18)
+	local v19 = v_u_1[p17]
+	if not v19 then
+		return {}
+	end
+	local v20 = {}
+	for _, v21 in pairs(v19) do
+		if type(v21) == "table" and (v21[1] and v21[1].id) then
+			for _, v22 in ipairs(v21) do
+				if v22.accessoryType == p18 then
+					table.insert(v20, v22)
+				end
+			end
+		end
+	end
+	return v20
+end
+
+function v_u_1.getShoesForBrand(p23)
+	return v_u_1.getByType(p23, "Shoes")
+end
+
+function v_u_1.isBundle(p24)
+	local v25
+	if p24.assetIds == nil then
+		v25 = false
+	else
+		v25 = p24.bundleId ~= nil
+	end
+	return v25
+end
+
+function v_u_1.isCustom(p26)
+	if p26 then
+		p26 = p26.sourceType == "Custom"
+	end
+	return p26
+end
+
+function v_u_1.isMultiPart(p27)
+	if p27 then
+		p27 = p27.isMultiPart == true
+	end
+	return p27
+end
+
+function v_u_1.getRandomForShop(p28, p29)
+	local v30 = v_u_1.getAllForBrand(p28)
+	if #v30 == 0 then
+		return {}
+	end
+	local v31 = #v30
+	local v32 = math.min(p29 or 3, v31)
+	local v33 = {}
+	for _, v34 in ipairs(v30) do
+		table.insert(v33, v34)
+	end
+	for _ = #v33, 2, -1 do
+		local v35 = math.random(1, UNNAMED_50812142296)
+		local v36 = v33[v35]
+		local v37 = v33[UNNAMED_50812142296]
+		v33[UNNAMED_50812142296] = v36
+		v33[v35] = v37
+	end
+	local v38 = {}
+	for _ = 1, v32 do
+		if v33[UNNAMED_50812145944] then
+			local v39 = v33[UNNAMED_50812145944]
+			table.insert(v38, v39)
+		end
+	end
+	return v38
+end
+
+function v_u_1.getById(p40)
+	for v41, v42 in pairs(v_u_1) do
+		if type(v42) == "table" and v41 ~= "Categories" then
+			for _, v43 in pairs(v42) do
+				if type(v43) == "table" and (v43[1] and v43[1].id) then
+					for _, v44 in ipairs(v43) do
+						if v44.id == p40 then
+							return v44
+						end
+					end
+				end
+			end
+		end
+	end
+	return nil
+end
+
+function v_u_1.getBrandsWithAccessories()
+	local v45 = {}
+	for v46, v47 in pairs(v_u_1) do
+		if type(v47) == "table" and v46 ~= "Categories" then
+			for _, v48 in pairs(v47) do
+				if type(v48) == "table" and (v48[1] and v48[1].id) then
+					table.insert(v45, v46)
+					break
+				end
+			end
+		end
+	end
+	return v45
+end
+
+function v_u_1.getCountForBrand(p49)
+	return #v_u_1.getAllForBrand(p49)
+end
+
+function v_u_1.brandHasAccessories(p50)
+	return v_u_1.getCountForBrand(p50) > 0
+end
+
+function v_u_1.getCustomAccessories()
+	local v51 = {}
+	for v52, v53 in pairs(v_u_1) do
+		if type(v53) == "table" and v52 ~= "Categories" then
+			for _, v54 in pairs(v53) do
+				if type(v54) == "table" and (v54[1] and v54[1].id) then
+					for _, v55 in ipairs(v54) do
+						if v55.sourceType == "Custom" then
+							table.insert(v51, v55)
+						end
+					end
+				end
+			end
+		end
+	end
+	return v51
+end
+
+function v_u_1.getMultiPartAccessories()
+	local v56 = {}
+	for v57, v58 in pairs(v_u_1) do
+		if type(v58) == "table" and v57 ~= "Categories" then
+			for _, v59 in pairs(v58) do
+				if type(v59) == "table" and (v59[1] and v59[1].id) then
+					for _, v60 in ipairs(v59) do
+						if v60.isMultiPart then
+							table.insert(v56, v60)
+						end
+					end
+				end
+			end
+		end
+	end
+	return v56
+end
+
+return v_u_1
