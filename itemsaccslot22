@@ -1359,17 +1359,6 @@ local v4 = {
 			economyProfile = "normal"
 		},
 		{
-			id = "Balenciaga_Garment_Bag2",
-			assetId = 99692493214274,
-			name = "Balenciaga Garment Large Tote",
-			accessoryType = "Waist",
-			rarity = "Legendary",
-			fairPrice = 135000,
-			brand = "Balenciaga",
-			spawnChance = 0.02,
-			economyProfile = "risky"
-		},
-		{
 			id = "Balenciaga_Black_Duffel",
 			assetId = 134357315882448,
 			name = "Balenciaga Black Duffel",
