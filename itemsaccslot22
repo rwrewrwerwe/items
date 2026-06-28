@@ -801,17 +801,6 @@ local v2 = {
 			economyProfile = "normal"
 		},
 		{
-			id = "bape_backpack_shark",
-			assetId = 101486965390763,
-			name = "Red BAPE Tiger Backpack",
-			accessoryType = "Back",
-			rarity = "Legendary",
-			fairPrice = 58000,
-			brand = "BAPE",
-			spawnChance = 0.6,
-			economyProfile = "risky"
-		},
-		{
 			id = "bape_sta_white",
 			bundleId = 152542098678507,
 			name = "Bape Star White",
@@ -1186,17 +1175,6 @@ v_u_1.CPCompany = {
 			brand = "CPCompany",
 			spawnChance = 0.15,
 			economyProfile = "trap"
-		},
-		{
-			id = "cp_goggle_beanie_Pink",
-			assetId = 109191017280869,
-			name = "CP Company Goggle Beanie Pink",
-			accessoryType = "Hat",
-			rarity = "Legendary",
-			fairPrice = 45000,
-			brand = "CPCompany",
-			spawnChance = 0.08,
-			economyProfile = "risky"
 		}
 	}
 }
@@ -1597,17 +1575,6 @@ v_u_1.ChromeHearts = {
 			brand = "ChromeHearts",
 			spawnChance = 0.6,
 			economyProfile = "risky"
-		},
-		{
-			id = "ChromeHearts_PurpleBeanie",
-			assetId = 135279723356196,
-			name = "Chrome Hearts Purple Beanie",
-			accessoryType = "Hat",
-			rarity = "Legendary",
-			fairPrice = 32000,
-			brand = "ChromeHearts",
-			spawnChance = 0.4,
-			economyProfile = "risky"
 		}
 	},
 	Bags = {
@@ -1842,17 +1809,6 @@ v_u_1.Moncler = {
 			brand = "Moncler",
 			spawnChance = 0.15,
 			economyProfile = "risky"
-		},
-		{
-			id = "moncler_beanie_Black",
-			assetId = 98077128019618,
-			name = "Moncler Logo Beanie Black",
-			accessoryType = "Hat",
-			rarity = "Legendary",
-			fairPrice = 62000,
-			brand = "Moncler",
-			spawnChance = 0.04,
-			economyProfile = "trap"
 		}
 	}
 }
